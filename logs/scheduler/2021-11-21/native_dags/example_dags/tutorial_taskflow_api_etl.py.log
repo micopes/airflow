@@ -1,0 +1,168 @@
+[2021-11-21 15:39:17,525] {scheduler_job.py:182} INFO - Started process (PID=2907) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:39:17,548] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-11-21 15:39:17,565] {logging_mixin.py:104} INFO - [2021-11-21 15:39:17,564] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:39:17,700] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:39:18,822] {logging_mixin.py:104} INFO - [2021-11-21 15:39:18,821] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-11-21 15:39:18,848] {logging_mixin.py:104} INFO - [2021-11-21 15:39:18,848] {dag.py:2305} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-11-21 15:39:18,927] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 1.426 seconds
+[2021-11-21 15:44:24,638] {scheduler_job.py:182} INFO - Started process (PID=3842) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:44:24,655] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-11-21 15:44:24,657] {logging_mixin.py:104} INFO - [2021-11-21 15:44:24,657] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:44:24,784] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:44:25,757] {logging_mixin.py:104} INFO - [2021-11-21 15:44:25,756] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-11-21 15:44:25,841] {logging_mixin.py:104} INFO - [2021-11-21 15:44:25,840] {dag.py:2305} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-11-21 15:44:25,984] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 1.365 seconds
+[2021-11-21 15:45:18,909] {scheduler_job.py:182} INFO - Started process (PID=3874) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:45:18,919] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-11-21 15:45:18,921] {logging_mixin.py:104} INFO - [2021-11-21 15:45:18,921] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:45:19,035] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:45:19,993] {logging_mixin.py:104} INFO - [2021-11-21 15:45:19,993] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-11-21 15:45:20,015] {logging_mixin.py:104} INFO - [2021-11-21 15:45:20,014] {dag.py:2305} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-11-21 15:45:20,074] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 1.175 seconds
+[2021-11-21 15:46:22,058] {scheduler_job.py:182} INFO - Started process (PID=3973) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:46:22,074] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-11-21 15:46:22,102] {logging_mixin.py:104} INFO - [2021-11-21 15:46:22,102] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:46:22,346] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:46:23,404] {logging_mixin.py:104} INFO - [2021-11-21 15:46:23,404] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-11-21 15:46:23,432] {logging_mixin.py:104} INFO - [2021-11-21 15:46:23,431] {dag.py:2305} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-11-21 15:46:23,508] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 1.491 seconds
+[2021-11-21 15:47:19,387] {scheduler_job.py:182} INFO - Started process (PID=4006) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:47:19,410] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-11-21 15:47:19,426] {logging_mixin.py:104} INFO - [2021-11-21 15:47:19,426] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:47:19,591] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:47:21,055] {logging_mixin.py:104} INFO - [2021-11-21 15:47:21,055] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-11-21 15:47:21,107] {logging_mixin.py:104} INFO - [2021-11-21 15:47:21,106] {dag.py:2305} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-11-21 15:47:21,358] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 1.989 seconds
+[2021-11-21 15:48:16,979] {scheduler_job.py:182} INFO - Started process (PID=4039) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:48:16,987] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-11-21 15:48:16,990] {logging_mixin.py:104} INFO - [2021-11-21 15:48:16,989] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:48:17,222] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:48:19,174] {logging_mixin.py:104} INFO - [2021-11-21 15:48:19,174] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-11-21 15:48:19,305] {logging_mixin.py:104} INFO - [2021-11-21 15:48:19,305] {dag.py:2305} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-11-21 15:48:19,519] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 2.559 seconds
+[2021-11-21 15:49:22,224] {scheduler_job.py:182} INFO - Started process (PID=4163) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:49:22,236] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-11-21 15:49:22,266] {logging_mixin.py:104} INFO - [2021-11-21 15:49:22,265] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:49:22,438] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:49:24,292] {logging_mixin.py:104} INFO - [2021-11-21 15:49:24,292] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-11-21 15:49:24,318] {logging_mixin.py:104} INFO - [2021-11-21 15:49:24,318] {dag.py:2305} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-11-21 15:49:24,384] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 2.183 seconds
+[2021-11-21 15:50:31,706] {scheduler_job.py:182} INFO - Started process (PID=4298) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:50:31,714] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-11-21 15:50:31,715] {logging_mixin.py:104} INFO - [2021-11-21 15:50:31,715] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:50:31,749] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:50:33,624] {logging_mixin.py:104} INFO - [2021-11-21 15:50:33,624] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-11-21 15:50:33,650] {logging_mixin.py:104} INFO - [2021-11-21 15:50:33,650] {dag.py:2305} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-11-21 15:50:33,710] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 2.046 seconds
+[2021-11-21 15:51:33,153] {scheduler_job.py:182} INFO - Started process (PID=4480) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:51:33,167] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-11-21 15:51:33,173] {logging_mixin.py:104} INFO - [2021-11-21 15:51:33,173] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:51:33,254] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:51:34,472] {logging_mixin.py:104} INFO - [2021-11-21 15:51:34,472] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-11-21 15:51:34,577] {logging_mixin.py:104} INFO - [2021-11-21 15:51:34,576] {dag.py:2305} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-11-21 15:51:34,704] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 1.562 seconds
+[2021-11-21 15:52:31,992] {scheduler_job.py:182} INFO - Started process (PID=4615) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:52:32,008] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-11-21 15:52:32,027] {logging_mixin.py:104} INFO - [2021-11-21 15:52:32,027] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:52:32,337] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:52:33,241] {logging_mixin.py:104} INFO - [2021-11-21 15:52:33,241] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-11-21 15:52:33,291] {logging_mixin.py:104} INFO - [2021-11-21 15:52:33,291] {dag.py:2305} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-11-21 15:52:33,395] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 1.474 seconds
+[2021-11-21 15:53:36,020] {scheduler_job.py:182} INFO - Started process (PID=4852) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:53:36,046] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-11-21 15:53:36,060] {logging_mixin.py:104} INFO - [2021-11-21 15:53:36,059] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:53:36,267] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:53:38,314] {logging_mixin.py:104} INFO - [2021-11-21 15:53:38,313] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-11-21 15:53:38,439] {logging_mixin.py:104} INFO - [2021-11-21 15:53:38,439] {dag.py:2305} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-11-21 15:53:38,587] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 2.589 seconds
+[2021-11-21 15:54:35,617] {scheduler_job.py:182} INFO - Started process (PID=4901) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:54:35,629] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-11-21 15:54:35,631] {logging_mixin.py:104} INFO - [2021-11-21 15:54:35,631] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:54:35,874] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:54:37,409] {logging_mixin.py:104} INFO - [2021-11-21 15:54:37,408] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-11-21 15:54:37,490] {logging_mixin.py:104} INFO - [2021-11-21 15:54:37,489] {dag.py:2305} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-11-21 15:54:37,561] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 1.958 seconds
+[2021-11-21 15:55:20,933] {scheduler_job.py:182} INFO - Started process (PID=4990) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:55:20,945] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-11-21 15:55:20,947] {logging_mixin.py:104} INFO - [2021-11-21 15:55:20,947] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:55:21,036] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:55:21,644] {logging_mixin.py:104} INFO - [2021-11-21 15:55:21,643] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-11-21 15:55:21,665] {logging_mixin.py:104} INFO - [2021-11-21 15:55:21,665] {dag.py:2305} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-11-21 15:55:21,732] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.821 seconds
+[2021-11-21 15:56:15,910] {scheduler_job.py:182} INFO - Started process (PID=5057) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:56:15,918] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-11-21 15:56:15,921] {logging_mixin.py:104} INFO - [2021-11-21 15:56:15,921] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:56:15,952] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:56:17,382] {logging_mixin.py:104} INFO - [2021-11-21 15:56:17,381] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-11-21 15:56:17,429] {logging_mixin.py:104} INFO - [2021-11-21 15:56:17,428] {dag.py:2305} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-11-21 15:56:17,641] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 1.734 seconds
+[2021-11-21 15:57:13,091] {scheduler_job.py:182} INFO - Started process (PID=5143) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:57:13,107] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-11-21 15:57:13,108] {logging_mixin.py:104} INFO - [2021-11-21 15:57:13,108] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:57:13,173] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:57:14,812] {logging_mixin.py:104} INFO - [2021-11-21 15:57:14,812] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-11-21 15:57:14,930] {logging_mixin.py:104} INFO - [2021-11-21 15:57:14,929] {dag.py:2305} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-11-21 15:57:15,136] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 2.058 seconds
+[2021-11-21 15:58:20,827] {scheduler_job.py:182} INFO - Started process (PID=5338) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:58:20,847] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-11-21 15:58:20,885] {logging_mixin.py:104} INFO - [2021-11-21 15:58:20,871] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:58:21,029] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:58:21,901] {logging_mixin.py:104} INFO - [2021-11-21 15:58:21,900] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-11-21 15:58:21,944] {logging_mixin.py:104} INFO - [2021-11-21 15:58:21,944] {dag.py:2305} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-11-21 15:58:22,032] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 1.219 seconds
+[2021-11-21 15:59:19,561] {scheduler_job.py:182} INFO - Started process (PID=5438) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:59:19,570] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-11-21 15:59:19,571] {logging_mixin.py:104} INFO - [2021-11-21 15:59:19,571] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:59:19,644] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 15:59:21,101] {logging_mixin.py:104} INFO - [2021-11-21 15:59:21,101] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-11-21 15:59:21,138] {logging_mixin.py:104} INFO - [2021-11-21 15:59:21,137] {dag.py:2305} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-11-21 15:59:21,326] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 1.778 seconds
+[2021-11-21 16:00:28,166] {scheduler_job.py:182} INFO - Started process (PID=5540) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 16:00:28,174] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-11-21 16:00:28,184] {logging_mixin.py:104} INFO - [2021-11-21 16:00:28,183] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 16:00:28,258] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 16:00:29,349] {logging_mixin.py:104} INFO - [2021-11-21 16:00:29,349] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-11-21 16:00:29,392] {logging_mixin.py:104} INFO - [2021-11-21 16:00:29,392] {dag.py:2305} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-11-21 16:00:29,565] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 1.407 seconds
+[2021-11-21 16:01:20,499] {scheduler_job.py:182} INFO - Started process (PID=5648) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 16:01:20,528] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-11-21 16:01:20,539] {logging_mixin.py:104} INFO - [2021-11-21 16:01:20,539] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 16:01:20,585] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 16:01:21,253] {logging_mixin.py:104} INFO - [2021-11-21 16:01:21,253] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-11-21 16:01:21,274] {logging_mixin.py:104} INFO - [2021-11-21 16:01:21,274] {dag.py:2305} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-11-21 16:01:21,335] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.847 seconds
+[2021-11-21 16:02:19,765] {scheduler_job.py:182} INFO - Started process (PID=5751) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 16:02:19,773] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-11-21 16:02:19,783] {logging_mixin.py:104} INFO - [2021-11-21 16:02:19,775] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 16:02:19,891] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 16:02:20,763] {logging_mixin.py:104} INFO - [2021-11-21 16:02:20,762] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-11-21 16:02:20,802] {logging_mixin.py:104} INFO - [2021-11-21 16:02:20,801] {dag.py:2305} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-11-21 16:02:20,916] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 1.167 seconds
+[2021-11-21 16:03:13,970] {scheduler_job.py:182} INFO - Started process (PID=5789) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 16:03:13,983] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-11-21 16:03:13,984] {logging_mixin.py:104} INFO - [2021-11-21 16:03:13,984] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 16:03:14,069] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 16:03:14,729] {logging_mixin.py:104} INFO - [2021-11-21 16:03:14,729] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-11-21 16:03:14,749] {logging_mixin.py:104} INFO - [2021-11-21 16:03:14,748] {dag.py:2305} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-11-21 16:03:14,813] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.859 seconds
+[2021-11-21 16:04:06,052] {scheduler_job.py:182} INFO - Started process (PID=5867) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 16:04:06,090] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-11-21 16:04:06,109] {logging_mixin.py:104} INFO - [2021-11-21 16:04:06,108] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 16:04:06,162] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 16:04:06,846] {logging_mixin.py:104} INFO - [2021-11-21 16:04:06,846] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-11-21 16:04:06,867] {logging_mixin.py:104} INFO - [2021-11-21 16:04:06,867] {dag.py:2305} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-11-21 16:04:06,917] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.877 seconds
+[2021-11-21 16:04:55,415] {scheduler_job.py:182} INFO - Started process (PID=5902) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 16:04:55,423] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-11-21 16:04:55,426] {logging_mixin.py:104} INFO - [2021-11-21 16:04:55,425] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 16:04:55,547] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 16:04:56,393] {logging_mixin.py:104} INFO - [2021-11-21 16:04:56,393] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-11-21 16:04:56,415] {logging_mixin.py:104} INFO - [2021-11-21 16:04:56,415] {dag.py:2305} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-11-21 16:04:56,486] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 1.087 seconds
+[2021-11-21 16:05:47,829] {scheduler_job.py:182} INFO - Started process (PID=5936) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 16:05:47,868] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-11-21 16:05:47,871] {logging_mixin.py:104} INFO - [2021-11-21 16:05:47,870] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 16:05:48,022] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-21 16:05:48,721] {logging_mixin.py:104} INFO - [2021-11-21 16:05:48,721] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-11-21 16:05:48,743] {logging_mixin.py:104} INFO - [2021-11-21 16:05:48,743] {dag.py:2305} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-11-21 16:05:48,805] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 1.001 seconds

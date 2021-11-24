@@ -1,0 +1,25 @@
+[2021-11-24 11:04:36,925] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: user_processing.extracting_user 2020-01-04T00:00:00+00:00 [queued]>
+[2021-11-24 11:04:36,963] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: user_processing.extracting_user 2020-01-04T00:00:00+00:00 [queued]>
+[2021-11-24 11:04:36,966] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-11-24 11:04:36,966] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-11-24 11:04:36,966] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-11-24 11:04:37,076] {taskinstance.py:1087} INFO - Executing <Task(SimpleHttpOperator): extracting_user> on 2020-01-04T00:00:00+00:00
+[2021-11-24 11:04:37,089] {standard_task_runner.py:52} INFO - Started process 152033 to run task
+[2021-11-24 11:04:37,125] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'user_processing', 'extracting_user', '2020-01-04T00:00:00+00:00', '--job-id', '75', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmp1s11aav3', '--error-file', '/tmp/tmpj4yxsewp']
+[2021-11-24 11:04:37,138] {standard_task_runner.py:77} INFO - Job 75: Subtask extracting_user
+[2021-11-24 11:04:37,408] {logging_mixin.py:104} INFO - Running <TaskInstance: user_processing.extracting_user 2020-01-04T00:00:00+00:00 [running]> on host airflowvm
+[2021-11-24 11:04:37,822] {taskinstance.py:1280} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extracting_user
+AIRFLOW_CTX_EXECUTION_DATE=2020-01-04T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-01-04T00:00:00+00:00
+[2021-11-24 11:04:37,875] {http.py:111} INFO - Calling HTTP method
+[2021-11-24 11:04:37,979] {base.py:69} INFO - Using connection to: id: user_api. Host: https://randomuser.me/, Port: None, Schema: , Login: , Password: None, extra: {}
+[2021-11-24 11:04:37,985] {http.py:140} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2021-11-24 11:04:38,655] {http.py:115} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Ali","last":"Adıvar"},"location":{"street":{"number":2317,"name":"Kushimoto Sk"},"city":"Bingöl","state":"Kayseri","country":"Turkey","postcode":55142,"coordinates":{"latitude":"76.3612","longitude":"-24.0006"},"timezone":{"offset":"+11:00","description":"Magadan, Solomon Islands, New Caledonia"}},"email":"ali.adivar@example.com","login":{"uuid":"00f33278-aefc-4948-96db-2f52483de01e","username":"tinyostrich242","password":"hang","salt":"Q50VKrF2","md5":"2244fa1e17a47fe5e663d74c71a58068","sha1":"b96d0c1ca18b0748ad0e44bdd1970bcf9ff007cf","sha256":"6ed5b015de161454bf622b69637565644a1ce9d4e7ad5d625b64c9e77e3e6867"},"dob":{"date":"1997-01-02T16:16:08.415Z","age":24},"registered":{"date":"2008-01-16T07:35:27.861Z","age":13},"phone":"(252)-890-0996","cell":"(019)-199-4979","id":{"name":"","value":null},"picture":{"large":"https://randomuser.me/api/portraits/men/13.jpg","medium":"https://randomuser.me/api/portraits/med/men/13.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/13.jpg"},"nat":"TR"}],"info":{"seed":"886ea01870ed57fc","results":1,"page":1,"version":"1.3"}}
+[2021-11-24 11:04:38,886] {taskinstance.py:1184} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extracting_user, execution_date=20200104T000000, start_date=20211124T110436, end_date=20211124T110438
+[2021-11-24 11:04:39,040] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-11-24 11:04:39,089] {local_task_job.py:151} INFO - Task exited with return code 0
