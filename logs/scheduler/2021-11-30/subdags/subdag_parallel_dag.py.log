@@ -1602,3 +1602,958 @@ SyntaxError: invalid syntax
 [2021-11-30 12:23:19,946] {logging_mixin.py:104} INFO - [2021-11-30 12:23:19,946] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
 [2021-11-30 12:23:19,950] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
 [2021-11-30 12:23:19,970] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.029 seconds
+[2021-11-30 12:23:50,219] {scheduler_job.py:182} INFO - Started process (PID=219304) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:23:50,221] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:23:50,222] {logging_mixin.py:104} INFO - [2021-11-30 12:23:50,222] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:23:50,226] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:23:50,242] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.026 seconds
+[2021-11-30 12:24:20,593] {scheduler_job.py:182} INFO - Started process (PID=219474) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:24:20,594] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:24:20,595] {logging_mixin.py:104} INFO - [2021-11-30 12:24:20,595] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:24:20,599] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:24:20,614] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.024 seconds
+[2021-11-30 12:24:50,769] {scheduler_job.py:182} INFO - Started process (PID=219523) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:24:50,770] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:24:50,778] {logging_mixin.py:104} INFO - [2021-11-30 12:24:50,778] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:24:50,782] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:24:50,821] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.054 seconds
+[2021-11-30 12:25:20,928] {scheduler_job.py:182} INFO - Started process (PID=219546) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:25:20,930] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:25:20,930] {logging_mixin.py:104} INFO - [2021-11-30 12:25:20,930] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:25:20,936] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:25:20,952] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.027 seconds
+[2021-11-30 12:25:51,084] {scheduler_job.py:182} INFO - Started process (PID=219566) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:25:51,086] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:25:51,087] {logging_mixin.py:104} INFO - [2021-11-30 12:25:51,087] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:25:51,093] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:25:51,111] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.029 seconds
+[2021-11-30 12:26:21,390] {scheduler_job.py:182} INFO - Started process (PID=219586) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:26:21,393] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:26:21,395] {logging_mixin.py:104} INFO - [2021-11-30 12:26:21,394] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:26:21,399] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:26:21,415] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.027 seconds
+[2021-11-30 12:26:51,614] {scheduler_job.py:182} INFO - Started process (PID=219605) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:26:51,617] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:26:51,619] {logging_mixin.py:104} INFO - [2021-11-30 12:26:51,618] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:26:51,635] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:26:51,684] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.075 seconds
+[2021-11-30 12:27:21,816] {scheduler_job.py:182} INFO - Started process (PID=219625) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:27:21,817] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:27:21,818] {logging_mixin.py:104} INFO - [2021-11-30 12:27:21,818] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:27:21,823] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:27:21,837] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.024 seconds
+[2021-11-30 12:27:52,109] {scheduler_job.py:182} INFO - Started process (PID=219644) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:27:52,111] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:27:52,112] {logging_mixin.py:104} INFO - [2021-11-30 12:27:52,112] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:27:52,117] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:27:52,138] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.033 seconds
+[2021-11-30 12:28:22,281] {scheduler_job.py:182} INFO - Started process (PID=219904) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:28:22,282] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:28:22,283] {logging_mixin.py:104} INFO - [2021-11-30 12:28:22,283] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:28:22,288] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:28:22,304] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.025 seconds
+[2021-11-30 12:28:52,701] {scheduler_job.py:182} INFO - Started process (PID=219924) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:28:52,702] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:28:52,703] {logging_mixin.py:104} INFO - [2021-11-30 12:28:52,703] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:28:52,709] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:28:52,724] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.026 seconds
+[2021-11-30 12:29:22,903] {scheduler_job.py:182} INFO - Started process (PID=219944) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:29:22,904] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:29:22,905] {logging_mixin.py:104} INFO - [2021-11-30 12:29:22,905] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:29:22,909] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:29:22,924] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.023 seconds
+[2021-11-30 12:29:53,202] {scheduler_job.py:182} INFO - Started process (PID=219964) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:29:53,206] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:29:53,210] {logging_mixin.py:104} INFO - [2021-11-30 12:29:53,210] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:29:53,222] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:29:53,273] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.079 seconds
+[2021-11-30 12:30:23,363] {scheduler_job.py:182} INFO - Started process (PID=219985) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:30:23,365] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:30:23,366] {logging_mixin.py:104} INFO - [2021-11-30 12:30:23,366] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:30:23,370] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:30:23,385] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.024 seconds
+[2021-11-30 12:30:53,555] {scheduler_job.py:182} INFO - Started process (PID=220004) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:30:53,556] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:30:53,557] {logging_mixin.py:104} INFO - [2021-11-30 12:30:53,557] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:30:53,562] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:30:53,578] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.027 seconds
+[2021-11-30 12:31:23,755] {scheduler_job.py:182} INFO - Started process (PID=220024) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:31:23,757] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:31:23,758] {logging_mixin.py:104} INFO - [2021-11-30 12:31:23,758] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:31:23,762] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:31:23,782] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.029 seconds
+[2021-11-30 12:31:53,948] {scheduler_job.py:182} INFO - Started process (PID=220044) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:31:53,950] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:31:53,951] {logging_mixin.py:104} INFO - [2021-11-30 12:31:53,951] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:31:53,957] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:31:53,974] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.030 seconds
+[2021-11-30 12:32:24,120] {scheduler_job.py:182} INFO - Started process (PID=220064) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:32:24,121] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:32:24,122] {logging_mixin.py:104} INFO - [2021-11-30 12:32:24,122] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:32:24,126] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:32:24,141] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.024 seconds
+[2021-11-30 12:32:54,327] {scheduler_job.py:182} INFO - Started process (PID=220083) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:32:54,328] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:32:54,329] {logging_mixin.py:104} INFO - [2021-11-30 12:32:54,329] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:32:54,332] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:32:54,349] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.025 seconds
+[2021-11-30 12:33:24,500] {scheduler_job.py:182} INFO - Started process (PID=220344) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:33:24,501] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:33:24,502] {logging_mixin.py:104} INFO - [2021-11-30 12:33:24,502] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:33:24,506] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:33:24,520] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.023 seconds
+[2021-11-30 12:33:54,685] {scheduler_job.py:182} INFO - Started process (PID=220365) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:33:54,687] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:33:54,687] {logging_mixin.py:104} INFO - [2021-11-30 12:33:54,687] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:33:54,694] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:33:54,707] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.024 seconds
+[2021-11-30 12:34:24,876] {scheduler_job.py:182} INFO - Started process (PID=220385) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:34:24,878] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:34:24,879] {logging_mixin.py:104} INFO - [2021-11-30 12:34:24,879] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:34:24,883] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:34:24,896] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.022 seconds
+[2021-11-30 12:34:55,086] {scheduler_job.py:182} INFO - Started process (PID=220405) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:34:55,088] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:34:55,089] {logging_mixin.py:104} INFO - [2021-11-30 12:34:55,089] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:34:55,095] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:34:55,113] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.033 seconds
+[2021-11-30 12:35:25,301] {scheduler_job.py:182} INFO - Started process (PID=220428) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:35:25,303] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:35:25,303] {logging_mixin.py:104} INFO - [2021-11-30 12:35:25,303] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:35:25,311] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:35:25,324] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.025 seconds
+[2021-11-30 12:35:55,470] {scheduler_job.py:182} INFO - Started process (PID=220447) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:35:55,471] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:35:55,473] {logging_mixin.py:104} INFO - [2021-11-30 12:35:55,472] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:35:55,478] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:35:55,491] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.024 seconds
+[2021-11-30 12:36:25,667] {scheduler_job.py:182} INFO - Started process (PID=220467) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:36:25,671] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:36:25,672] {logging_mixin.py:104} INFO - [2021-11-30 12:36:25,672] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:36:25,677] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:36:25,695] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.032 seconds
+[2021-11-30 12:36:55,842] {scheduler_job.py:182} INFO - Started process (PID=220486) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:36:55,843] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:36:55,844] {logging_mixin.py:104} INFO - [2021-11-30 12:36:55,844] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:36:55,848] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:36:55,862] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.023 seconds
+[2021-11-30 12:37:26,014] {scheduler_job.py:182} INFO - Started process (PID=220506) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:37:26,015] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:37:26,016] {logging_mixin.py:104} INFO - [2021-11-30 12:37:26,016] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:37:26,020] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:37:26,036] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.025 seconds
+[2021-11-30 12:37:56,235] {scheduler_job.py:182} INFO - Started process (PID=220526) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:37:56,238] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:37:56,240] {logging_mixin.py:104} INFO - [2021-11-30 12:37:56,240] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:37:56,244] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:37:56,261] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.029 seconds
+[2021-11-30 12:38:26,406] {scheduler_job.py:182} INFO - Started process (PID=220786) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:38:26,408] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:38:26,408] {logging_mixin.py:104} INFO - [2021-11-30 12:38:26,408] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:38:26,412] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:38:26,429] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.026 seconds
+[2021-11-30 12:38:56,585] {scheduler_job.py:182} INFO - Started process (PID=220806) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:38:56,587] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:38:56,588] {logging_mixin.py:104} INFO - [2021-11-30 12:38:56,588] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:38:56,593] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:38:56,607] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.024 seconds
+[2021-11-30 12:39:26,769] {scheduler_job.py:182} INFO - Started process (PID=220826) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:39:26,771] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:39:26,772] {logging_mixin.py:104} INFO - [2021-11-30 12:39:26,771] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:39:26,778] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:39:26,792] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.025 seconds
+[2021-11-30 12:39:56,951] {scheduler_job.py:182} INFO - Started process (PID=220860) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:39:56,953] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:39:56,953] {logging_mixin.py:104} INFO - [2021-11-30 12:39:56,953] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:39:56,959] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:39:56,973] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.025 seconds
+[2021-11-30 12:40:27,088] {scheduler_job.py:182} INFO - Started process (PID=220875) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:40:27,090] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:40:27,098] {logging_mixin.py:104} INFO - [2021-11-30 12:40:27,098] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:40:27,102] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:40:27,136] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.050 seconds
+[2021-11-30 12:40:57,254] {scheduler_job.py:182} INFO - Started process (PID=220895) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:40:57,255] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:40:57,256] {logging_mixin.py:104} INFO - [2021-11-30 12:40:57,256] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:40:57,262] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:40:57,275] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.024 seconds
+[2021-11-30 12:41:27,399] {scheduler_job.py:182} INFO - Started process (PID=220915) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:41:27,402] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:41:27,403] {logging_mixin.py:104} INFO - [2021-11-30 12:41:27,403] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:41:27,407] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:41:27,439] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.043 seconds
+[2021-11-30 12:41:57,724] {scheduler_job.py:182} INFO - Started process (PID=220934) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:41:57,725] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:41:57,726] {logging_mixin.py:104} INFO - [2021-11-30 12:41:57,726] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:41:57,732] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:41:57,746] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.025 seconds
+[2021-11-30 12:42:27,953] {scheduler_job.py:182} INFO - Started process (PID=220954) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:42:27,955] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:42:27,955] {logging_mixin.py:104} INFO - [2021-11-30 12:42:27,955] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:42:27,959] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:42:27,974] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.024 seconds
+[2021-11-30 12:42:58,170] {scheduler_job.py:182} INFO - Started process (PID=220973) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:42:58,172] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:42:58,172] {logging_mixin.py:104} INFO - [2021-11-30 12:42:58,172] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:42:58,177] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:42:58,192] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.025 seconds
+[2021-11-30 12:43:28,394] {scheduler_job.py:182} INFO - Started process (PID=221233) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:43:28,396] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:43:28,397] {logging_mixin.py:104} INFO - [2021-11-30 12:43:28,397] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:43:28,402] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:43:28,416] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.025 seconds
+[2021-11-30 12:43:58,650] {scheduler_job.py:182} INFO - Started process (PID=221254) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:43:58,651] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:43:58,653] {logging_mixin.py:104} INFO - [2021-11-30 12:43:58,653] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:43:58,657] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:43:58,675] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.028 seconds
+[2021-11-30 12:44:28,837] {scheduler_job.py:182} INFO - Started process (PID=221274) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:44:28,839] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:44:28,839] {logging_mixin.py:104} INFO - [2021-11-30 12:44:28,839] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:44:28,843] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:44:28,858] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.023 seconds
+[2021-11-30 12:44:59,055] {scheduler_job.py:182} INFO - Started process (PID=221293) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:44:59,057] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:44:59,058] {logging_mixin.py:104} INFO - [2021-11-30 12:44:59,058] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:44:59,067] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:44:59,080] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.030 seconds
+[2021-11-30 12:45:29,295] {scheduler_job.py:182} INFO - Started process (PID=221316) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:45:29,296] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:45:29,298] {logging_mixin.py:104} INFO - [2021-11-30 12:45:29,298] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:45:29,305] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:45:29,331] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.041 seconds
+[2021-11-30 12:45:59,547] {scheduler_job.py:182} INFO - Started process (PID=221335) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:45:59,551] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:45:59,552] {logging_mixin.py:104} INFO - [2021-11-30 12:45:59,552] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:45:59,558] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:45:59,575] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.031 seconds
+[2021-11-30 12:46:29,777] {scheduler_job.py:182} INFO - Started process (PID=221355) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:46:29,779] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:46:29,780] {logging_mixin.py:104} INFO - [2021-11-30 12:46:29,780] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:46:29,784] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:46:29,798] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.025 seconds
+[2021-11-30 12:46:59,975] {scheduler_job.py:182} INFO - Started process (PID=221375) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:46:59,976] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:46:59,977] {logging_mixin.py:104} INFO - [2021-11-30 12:46:59,977] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:46:59,982] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:46:59,996] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.024 seconds
+[2021-11-30 12:47:30,175] {scheduler_job.py:182} INFO - Started process (PID=221395) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:47:30,176] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:47:30,177] {logging_mixin.py:104} INFO - [2021-11-30 12:47:30,177] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:47:30,182] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:47:30,198] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.026 seconds
+[2021-11-30 12:48:00,411] {scheduler_job.py:182} INFO - Started process (PID=221415) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:48:00,413] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:48:00,414] {logging_mixin.py:104} INFO - [2021-11-30 12:48:00,413] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:48:00,417] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:48:00,432] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.023 seconds
+[2021-11-30 12:48:30,620] {scheduler_job.py:182} INFO - Started process (PID=221674) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:48:30,621] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:48:30,622] {logging_mixin.py:104} INFO - [2021-11-30 12:48:30,622] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:48:30,626] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:48:30,639] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.023 seconds
+[2021-11-30 12:49:00,787] {scheduler_job.py:182} INFO - Started process (PID=221693) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:49:00,788] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:49:00,789] {logging_mixin.py:104} INFO - [2021-11-30 12:49:00,789] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:49:00,792] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:49:00,809] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.025 seconds
+[2021-11-30 12:49:30,960] {scheduler_job.py:182} INFO - Started process (PID=221713) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:49:30,961] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:49:30,962] {logging_mixin.py:104} INFO - [2021-11-30 12:49:30,962] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:49:30,967] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:49:30,981] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.023 seconds
+[2021-11-30 12:50:01,156] {scheduler_job.py:182} INFO - Started process (PID=221733) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:50:01,157] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:50:01,158] {logging_mixin.py:104} INFO - [2021-11-30 12:50:01,158] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:50:01,162] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:50:01,180] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.027 seconds
+[2021-11-30 12:50:31,383] {scheduler_job.py:182} INFO - Started process (PID=221755) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:50:31,384] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:50:31,385] {logging_mixin.py:104} INFO - [2021-11-30 12:50:31,385] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:50:31,389] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:50:31,405] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.025 seconds
+[2021-11-30 12:51:01,602] {scheduler_job.py:182} INFO - Started process (PID=221775) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:51:01,603] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:51:01,604] {logging_mixin.py:104} INFO - [2021-11-30 12:51:01,604] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:51:01,608] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:51:01,625] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.027 seconds
+[2021-11-30 12:51:31,802] {scheduler_job.py:182} INFO - Started process (PID=221794) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:51:31,804] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:51:31,805] {logging_mixin.py:104} INFO - [2021-11-30 12:51:31,805] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:51:31,809] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:51:31,824] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.024 seconds
+[2021-11-30 12:52:01,991] {scheduler_job.py:182} INFO - Started process (PID=221813) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:52:01,993] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:52:01,994] {logging_mixin.py:104} INFO - [2021-11-30 12:52:01,993] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:52:01,998] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:52:02,013] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.026 seconds
+[2021-11-30 12:52:32,201] {scheduler_job.py:182} INFO - Started process (PID=221833) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:52:32,203] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:52:32,204] {logging_mixin.py:104} INFO - [2021-11-30 12:52:32,203] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:52:32,207] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:52:32,221] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.023 seconds
+[2021-11-30 12:53:02,431] {scheduler_job.py:182} INFO - Started process (PID=221853) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:53:02,433] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:53:02,434] {logging_mixin.py:104} INFO - [2021-11-30 12:53:02,434] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:53:02,438] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:53:02,455] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.030 seconds
+[2021-11-30 12:53:32,637] {scheduler_job.py:182} INFO - Started process (PID=222113) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:53:32,639] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:53:32,640] {logging_mixin.py:104} INFO - [2021-11-30 12:53:32,640] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:53:32,644] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:53:32,658] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.026 seconds
+[2021-11-30 12:54:02,789] {scheduler_job.py:182} INFO - Started process (PID=222133) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:54:02,790] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:54:02,791] {logging_mixin.py:104} INFO - [2021-11-30 12:54:02,791] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:54:02,794] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:54:02,814] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.028 seconds
+[2021-11-30 12:54:32,952] {scheduler_job.py:182} INFO - Started process (PID=222152) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:54:32,954] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:54:32,954] {logging_mixin.py:104} INFO - [2021-11-30 12:54:32,954] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:54:32,958] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:54:32,975] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.026 seconds
+[2021-11-30 12:55:03,120] {scheduler_job.py:182} INFO - Started process (PID=222174) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:55:03,122] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:55:03,122] {logging_mixin.py:104} INFO - [2021-11-30 12:55:03,122] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:55:03,127] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:55:03,141] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.025 seconds
+[2021-11-30 12:55:33,270] {scheduler_job.py:182} INFO - Started process (PID=222194) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:55:33,272] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:55:33,273] {logging_mixin.py:104} INFO - [2021-11-30 12:55:33,273] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:55:33,277] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:55:33,295] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.027 seconds
+[2021-11-30 12:56:03,449] {scheduler_job.py:182} INFO - Started process (PID=222208) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:56:03,458] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:56:03,459] {logging_mixin.py:104} INFO - [2021-11-30 12:56:03,459] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:56:03,464] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:56:03,494] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.048 seconds
+[2021-11-30 12:56:33,613] {scheduler_job.py:182} INFO - Started process (PID=222228) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:56:33,615] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:56:33,617] {logging_mixin.py:104} INFO - [2021-11-30 12:56:33,616] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:56:33,620] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:56:33,634] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.024 seconds
+[2021-11-30 12:57:03,758] {scheduler_job.py:182} INFO - Started process (PID=222249) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:57:03,760] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:57:03,760] {logging_mixin.py:104} INFO - [2021-11-30 12:57:03,760] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:57:03,764] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:57:03,779] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.024 seconds
+[2021-11-30 12:57:34,110] {scheduler_job.py:182} INFO - Started process (PID=222268) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:57:34,112] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:57:34,113] {logging_mixin.py:104} INFO - [2021-11-30 12:57:34,113] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:57:34,118] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:57:34,137] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.033 seconds
+[2021-11-30 12:58:04,374] {scheduler_job.py:182} INFO - Started process (PID=222287) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:58:04,376] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:58:04,377] {logging_mixin.py:104} INFO - [2021-11-30 12:58:04,377] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:58:04,381] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:58:04,400] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.030 seconds
+[2021-11-30 12:58:34,601] {scheduler_job.py:182} INFO - Started process (PID=222547) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:58:34,606] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:58:34,608] {logging_mixin.py:104} INFO - [2021-11-30 12:58:34,608] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:58:34,612] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:58:34,631] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.034 seconds
+[2021-11-30 12:59:04,837] {scheduler_job.py:182} INFO - Started process (PID=222567) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:59:04,838] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:59:04,839] {logging_mixin.py:104} INFO - [2021-11-30 12:59:04,839] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:59:04,843] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:59:04,860] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.027 seconds
+[2021-11-30 12:59:35,033] {scheduler_job.py:182} INFO - Started process (PID=222587) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:59:35,041] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:59:35,044] {logging_mixin.py:104} INFO - [2021-11-30 12:59:35,044] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:59:35,060] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:59:35,127] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.103 seconds
+[2021-11-30 13:00:05,309] {scheduler_job.py:182} INFO - Started process (PID=222608) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:00:05,311] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:00:05,312] {logging_mixin.py:104} INFO - [2021-11-30 13:00:05,312] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:00:05,316] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:00:05,335] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.028 seconds
+[2021-11-30 13:00:35,600] {scheduler_job.py:182} INFO - Started process (PID=222627) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:00:35,601] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:00:35,602] {logging_mixin.py:104} INFO - [2021-11-30 13:00:35,602] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:00:35,608] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:00:35,622] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.024 seconds
+[2021-11-30 13:01:05,781] {scheduler_job.py:182} INFO - Started process (PID=222646) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:01:05,782] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:01:05,783] {logging_mixin.py:104} INFO - [2021-11-30 13:01:05,783] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:01:05,787] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:01:05,804] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.026 seconds
+[2021-11-30 13:01:35,993] {scheduler_job.py:182} INFO - Started process (PID=222666) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:01:35,995] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:01:35,996] {logging_mixin.py:104} INFO - [2021-11-30 13:01:35,996] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:01:36,000] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:01:36,016] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.027 seconds
+[2021-11-30 13:02:06,185] {scheduler_job.py:182} INFO - Started process (PID=222686) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:02:06,187] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:02:06,188] {logging_mixin.py:104} INFO - [2021-11-30 13:02:06,188] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:02:06,194] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:02:06,223] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.040 seconds
+[2021-11-30 13:02:36,452] {scheduler_job.py:182} INFO - Started process (PID=222706) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:02:36,453] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:02:36,454] {logging_mixin.py:104} INFO - [2021-11-30 13:02:36,454] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:02:36,459] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:02:36,475] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.027 seconds
+[2021-11-30 13:03:06,639] {scheduler_job.py:182} INFO - Started process (PID=222727) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:03:06,642] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:03:06,643] {logging_mixin.py:104} INFO - [2021-11-30 13:03:06,643] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:03:06,649] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:03:06,670] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.034 seconds
+[2021-11-30 13:03:36,868] {scheduler_job.py:182} INFO - Started process (PID=222987) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:03:36,870] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:03:36,871] {logging_mixin.py:104} INFO - [2021-11-30 13:03:36,870] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:03:36,875] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:03:36,890] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.024 seconds
+[2021-11-30 13:04:07,049] {scheduler_job.py:182} INFO - Started process (PID=223007) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:04:07,050] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:04:07,053] {logging_mixin.py:104} INFO - [2021-11-30 13:04:07,051] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:04:07,057] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:04:07,075] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.030 seconds
+[2021-11-30 13:04:37,261] {scheduler_job.py:182} INFO - Started process (PID=223027) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:04:37,264] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:04:37,266] {logging_mixin.py:104} INFO - [2021-11-30 13:04:37,265] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:04:37,270] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:04:37,287] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.036 seconds
+[2021-11-30 13:05:07,558] {scheduler_job.py:182} INFO - Started process (PID=223050) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:05:07,560] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:05:07,561] {logging_mixin.py:104} INFO - [2021-11-30 13:05:07,560] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:05:07,567] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:05:07,589] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.034 seconds
+[2021-11-30 13:05:37,781] {scheduler_job.py:182} INFO - Started process (PID=223071) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:05:37,783] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:05:37,785] {logging_mixin.py:104} INFO - [2021-11-30 13:05:37,785] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:05:37,794] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:05:37,863] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.086 seconds
+[2021-11-30 13:06:08,071] {scheduler_job.py:182} INFO - Started process (PID=223092) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:06:08,073] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:06:08,074] {logging_mixin.py:104} INFO - [2021-11-30 13:06:08,074] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:06:08,078] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:06:08,112] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.044 seconds
+[2021-11-30 13:06:38,283] {scheduler_job.py:182} INFO - Started process (PID=223111) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:06:38,285] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:06:38,286] {logging_mixin.py:104} INFO - [2021-11-30 13:06:38,286] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:06:38,289] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:06:38,303] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.023 seconds
+[2021-11-30 13:07:08,466] {scheduler_job.py:182} INFO - Started process (PID=223130) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:07:08,468] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:07:08,469] {logging_mixin.py:104} INFO - [2021-11-30 13:07:08,469] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:07:08,475] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:07:08,491] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.029 seconds
+[2021-11-30 13:07:38,691] {scheduler_job.py:182} INFO - Started process (PID=223150) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:07:38,693] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:07:38,693] {logging_mixin.py:104} INFO - [2021-11-30 13:07:38,693] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:07:38,697] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:07:38,711] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.022 seconds
+[2021-11-30 13:08:08,921] {scheduler_job.py:182} INFO - Started process (PID=223170) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:08:08,925] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:08:08,928] {logging_mixin.py:104} INFO - [2021-11-30 13:08:08,928] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:08:08,937] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:08:08,962] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.058 seconds
+[2021-11-30 13:08:39,163] {scheduler_job.py:182} INFO - Started process (PID=223430) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:08:39,167] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:08:39,168] {logging_mixin.py:104} INFO - [2021-11-30 13:08:39,168] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:08:39,172] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:08:39,186] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.026 seconds
+[2021-11-30 13:09:09,382] {scheduler_job.py:182} INFO - Started process (PID=223450) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:09:09,384] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:09:09,386] {logging_mixin.py:104} INFO - [2021-11-30 13:09:09,386] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:09:09,391] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:09:09,406] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.027 seconds
+[2021-11-30 13:09:39,566] {scheduler_job.py:182} INFO - Started process (PID=223469) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:09:39,568] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:09:39,568] {logging_mixin.py:104} INFO - [2021-11-30 13:09:39,568] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:09:39,572] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:09:39,590] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.027 seconds
+[2021-11-30 13:10:09,734] {scheduler_job.py:182} INFO - Started process (PID=223489) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:10:09,736] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:10:09,737] {logging_mixin.py:104} INFO - [2021-11-30 13:10:09,737] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:10:09,742] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:10:09,756] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.024 seconds
+[2021-11-30 13:10:39,914] {scheduler_job.py:182} INFO - Started process (PID=223508) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:10:39,916] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:10:39,916] {logging_mixin.py:104} INFO - [2021-11-30 13:10:39,916] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:10:39,920] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:10:39,935] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.023 seconds
+[2021-11-30 13:11:10,052] {scheduler_job.py:182} INFO - Started process (PID=223529) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:11:10,054] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:11:10,055] {logging_mixin.py:104} INFO - [2021-11-30 13:11:10,055] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:11:10,059] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:11:10,072] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.022 seconds
+[2021-11-30 13:11:40,195] {scheduler_job.py:182} INFO - Started process (PID=223543) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:11:40,197] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:11:40,203] {logging_mixin.py:104} INFO - [2021-11-30 13:11:40,203] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:11:40,207] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:11:40,235] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.042 seconds
+[2021-11-30 13:12:10,365] {scheduler_job.py:182} INFO - Started process (PID=223563) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:12:10,366] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:12:10,367] {logging_mixin.py:104} INFO - [2021-11-30 13:12:10,367] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:12:10,373] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:12:10,388] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.026 seconds
+[2021-11-30 13:12:40,505] {scheduler_job.py:182} INFO - Started process (PID=223582) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:12:40,507] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:12:40,507] {logging_mixin.py:104} INFO - [2021-11-30 13:12:40,507] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:12:40,511] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:12:40,525] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.023 seconds
+[2021-11-30 13:13:10,879] {scheduler_job.py:182} INFO - Started process (PID=223602) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:13:10,880] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:13:10,881] {logging_mixin.py:104} INFO - [2021-11-30 13:13:10,881] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:13:10,886] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:13:10,913] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.038 seconds
+[2021-11-30 13:13:41,107] {scheduler_job.py:182} INFO - Started process (PID=223861) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:13:41,109] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:13:41,110] {logging_mixin.py:104} INFO - [2021-11-30 13:13:41,109] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:13:41,114] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:13:41,128] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.027 seconds
+[2021-11-30 13:14:11,288] {scheduler_job.py:182} INFO - Started process (PID=223881) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:14:11,290] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:14:11,291] {logging_mixin.py:104} INFO - [2021-11-30 13:14:11,291] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:14:11,294] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:14:11,309] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.023 seconds
+[2021-11-30 13:14:41,497] {scheduler_job.py:182} INFO - Started process (PID=223901) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:14:41,514] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:14:41,518] {logging_mixin.py:104} INFO - [2021-11-30 13:14:41,517] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:14:41,535] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:14:41,552] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.059 seconds
+[2021-11-30 13:15:11,709] {scheduler_job.py:182} INFO - Started process (PID=223924) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:15:11,711] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:15:11,712] {logging_mixin.py:104} INFO - [2021-11-30 13:15:11,711] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:15:11,716] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:15:11,732] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.026 seconds
+[2021-11-30 13:15:41,901] {scheduler_job.py:182} INFO - Started process (PID=223943) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:15:41,904] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:15:41,905] {logging_mixin.py:104} INFO - [2021-11-30 13:15:41,905] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:15:41,909] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:15:41,925] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.029 seconds
+[2021-11-30 13:16:12,088] {scheduler_job.py:182} INFO - Started process (PID=223963) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:16:12,090] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:16:12,091] {logging_mixin.py:104} INFO - [2021-11-30 13:16:12,091] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:16:12,096] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:16:12,111] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.029 seconds
+[2021-11-30 13:16:42,276] {scheduler_job.py:182} INFO - Started process (PID=223983) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:16:42,278] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:16:42,286] {logging_mixin.py:104} INFO - [2021-11-30 13:16:42,286] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:16:42,292] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:16:42,309] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.035 seconds
+[2021-11-30 13:17:12,574] {scheduler_job.py:182} INFO - Started process (PID=224006) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:17:12,598] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:17:12,650] {logging_mixin.py:104} INFO - [2021-11-30 13:17:12,610] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:17:12,721] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:17:12,859] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.305 seconds
+[2021-11-30 13:17:43,494] {scheduler_job.py:182} INFO - Started process (PID=224026) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:17:43,519] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:17:43,535] {logging_mixin.py:104} INFO - [2021-11-30 13:17:43,534] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:17:43,603] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:17:43,756] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.305 seconds
+[2021-11-30 13:18:14,135] {scheduler_job.py:182} INFO - Started process (PID=224126) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:18:14,148] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:18:14,154] {logging_mixin.py:104} INFO - [2021-11-30 13:18:14,154] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:18:14,276] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:18:14,391] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.316 seconds
+[2021-11-30 13:18:45,184] {scheduler_job.py:182} INFO - Started process (PID=224433) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:18:45,194] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:18:45,206] {logging_mixin.py:104} INFO - [2021-11-30 13:18:45,196] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:18:45,234] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:18:45,383] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.225 seconds
+[2021-11-30 13:19:15,954] {scheduler_job.py:182} INFO - Started process (PID=224453) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:19:15,960] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:19:15,966] {logging_mixin.py:104} INFO - [2021-11-30 13:19:15,966] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:19:16,082] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:19:16,309] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.370 seconds
+[2021-11-30 13:19:46,527] {scheduler_job.py:182} INFO - Started process (PID=224473) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:19:46,534] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:19:46,543] {logging_mixin.py:104} INFO - [2021-11-30 13:19:46,542] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:19:46,607] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:19:46,810] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.311 seconds
+[2021-11-30 13:20:17,098] {scheduler_job.py:182} INFO - Started process (PID=224493) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:20:17,110] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:20:17,113] {logging_mixin.py:104} INFO - [2021-11-30 13:20:17,112] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:20:17,197] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:20:17,377] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.353 seconds
+[2021-11-30 13:20:47,684] {scheduler_job.py:182} INFO - Started process (PID=224511) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:20:47,700] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:20:47,718] {logging_mixin.py:104} INFO - [2021-11-30 13:20:47,718] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:20:47,793] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:20:48,173] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.536 seconds
+[2021-11-30 13:21:18,748] {scheduler_job.py:182} INFO - Started process (PID=224527) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:21:18,770] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:21:18,791] {logging_mixin.py:104} INFO - [2021-11-30 13:21:18,791] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:21:19,042] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:21:19,404] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.759 seconds
+[2021-11-30 13:21:50,617] {scheduler_job.py:182} INFO - Started process (PID=224546) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:21:50,634] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:21:50,636] {logging_mixin.py:104} INFO - [2021-11-30 13:21:50,636] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:21:50,726] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:21:50,944] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.355 seconds
+[2021-11-30 13:22:21,362] {scheduler_job.py:182} INFO - Started process (PID=224567) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:22:21,403] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:22:21,408] {logging_mixin.py:104} INFO - [2021-11-30 13:22:21,407] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:22:21,450] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:22:21,664] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.322 seconds
+[2021-11-30 13:22:51,944] {scheduler_job.py:182} INFO - Started process (PID=224587) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:22:51,953] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:22:51,955] {logging_mixin.py:104} INFO - [2021-11-30 13:22:51,955] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:22:52,006] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:22:52,287] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.365 seconds
+[2021-11-30 13:23:22,846] {scheduler_job.py:182} INFO - Started process (PID=224847) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:23:22,855] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:23:22,865] {logging_mixin.py:104} INFO - [2021-11-30 13:23:22,864] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:23:22,933] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:23:23,058] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.226 seconds
+[2021-11-30 13:23:53,782] {scheduler_job.py:182} INFO - Started process (PID=224866) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:23:53,790] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:23:53,800] {logging_mixin.py:104} INFO - [2021-11-30 13:23:53,799] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:23:53,906] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:23:54,082] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.349 seconds
+[2021-11-30 13:24:25,155] {scheduler_job.py:182} INFO - Started process (PID=224886) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:24:25,162] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:24:25,167] {logging_mixin.py:104} INFO - [2021-11-30 13:24:25,167] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:24:25,209] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:24:25,390] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.265 seconds
+[2021-11-30 13:24:55,578] {scheduler_job.py:182} INFO - Started process (PID=224905) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:24:55,586] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:24:55,591] {logging_mixin.py:104} INFO - [2021-11-30 13:24:55,591] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:24:55,620] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:24:55,762] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.215 seconds
+[2021-11-30 13:25:26,439] {scheduler_job.py:182} INFO - Started process (PID=224928) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:25:26,451] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:25:26,461] {logging_mixin.py:104} INFO - [2021-11-30 13:25:26,461] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:25:26,520] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:25:26,654] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.236 seconds
+[2021-11-30 13:25:57,025] {scheduler_job.py:182} INFO - Started process (PID=224948) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:25:57,042] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:25:57,051] {logging_mixin.py:104} INFO - [2021-11-30 13:25:57,048] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:25:57,109] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:25:57,287] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.288 seconds
+[2021-11-30 13:26:27,804] {scheduler_job.py:182} INFO - Started process (PID=224968) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:26:27,824] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:26:27,826] {logging_mixin.py:104} INFO - [2021-11-30 13:26:27,825] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:26:27,868] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:26:28,055] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.274 seconds
+[2021-11-30 13:26:58,471] {scheduler_job.py:182} INFO - Started process (PID=224984) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:26:58,478] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:26:58,480] {logging_mixin.py:104} INFO - [2021-11-30 13:26:58,479] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:26:58,538] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:26:58,702] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.316 seconds
+[2021-11-30 13:27:28,977] {scheduler_job.py:182} INFO - Started process (PID=225002) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:27:28,982] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:27:28,985] {logging_mixin.py:104} INFO - [2021-11-30 13:27:28,985] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:27:29,040] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:27:29,154] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.206 seconds
+[2021-11-30 13:27:59,621] {scheduler_job.py:182} INFO - Started process (PID=225021) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:27:59,629] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:27:59,631] {logging_mixin.py:104} INFO - [2021-11-30 13:27:59,631] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:27:59,684] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:27:59,872] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.298 seconds
+[2021-11-30 13:28:30,448] {scheduler_job.py:182} INFO - Started process (PID=225281) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:28:30,460] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:28:30,463] {logging_mixin.py:104} INFO - [2021-11-30 13:28:30,463] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:28:30,563] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:28:30,732] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.308 seconds
+[2021-11-30 13:29:00,893] {scheduler_job.py:182} INFO - Started process (PID=225301) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:29:00,906] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:29:00,914] {logging_mixin.py:104} INFO - [2021-11-30 13:29:00,914] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:29:00,949] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:29:01,159] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.299 seconds
+[2021-11-30 13:29:31,666] {scheduler_job.py:182} INFO - Started process (PID=225321) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:29:31,690] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:29:31,692] {logging_mixin.py:104} INFO - [2021-11-30 13:29:31,691] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:29:31,747] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:29:31,822] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.183 seconds
+[2021-11-30 13:30:02,283] {scheduler_job.py:182} INFO - Started process (PID=225342) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:30:02,322] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:30:02,325] {logging_mixin.py:104} INFO - [2021-11-30 13:30:02,324] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:30:02,477] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:30:02,575] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.363 seconds
+[2021-11-30 13:30:33,348] {scheduler_job.py:182} INFO - Started process (PID=225361) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:30:33,367] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:30:33,449] {logging_mixin.py:104} INFO - [2021-11-30 13:30:33,449] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:30:33,616] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:30:33,849] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.603 seconds
+[2021-11-30 13:31:04,001] {scheduler_job.py:182} INFO - Started process (PID=225380) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:31:04,009] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:31:04,014] {logging_mixin.py:104} INFO - [2021-11-30 13:31:04,014] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:31:04,091] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:31:04,223] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.242 seconds
+[2021-11-30 13:31:34,537] {scheduler_job.py:182} INFO - Started process (PID=225400) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:31:34,543] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:31:34,551] {logging_mixin.py:104} INFO - [2021-11-30 13:31:34,551] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:31:34,583] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:31:34,731] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.219 seconds
+[2021-11-30 13:32:04,977] {scheduler_job.py:182} INFO - Started process (PID=225420) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:32:04,981] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:32:04,988] {logging_mixin.py:104} INFO - [2021-11-30 13:32:04,987] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:32:05,009] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:32:05,083] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.118 seconds
+[2021-11-30 13:32:35,254] {scheduler_job.py:182} INFO - Started process (PID=225440) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:32:35,263] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:32:35,270] {logging_mixin.py:104} INFO - [2021-11-30 13:32:35,270] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:32:35,288] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:32:35,359] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.115 seconds
+[2021-11-30 13:33:05,867] {scheduler_job.py:182} INFO - Started process (PID=225454) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:33:05,896] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:33:05,899] {logging_mixin.py:104} INFO - [2021-11-30 13:33:05,898] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:33:06,016] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:33:06,093] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.272 seconds
+[2021-11-30 13:33:36,620] {scheduler_job.py:182} INFO - Started process (PID=225714) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:33:36,629] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:33:36,632] {logging_mixin.py:104} INFO - [2021-11-30 13:33:36,632] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:33:36,715] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:33:36,947] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.351 seconds
+[2021-11-30 13:34:07,220] {scheduler_job.py:182} INFO - Started process (PID=225735) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:34:07,229] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:34:07,231] {logging_mixin.py:104} INFO - [2021-11-30 13:34:07,231] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:34:07,249] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:34:07,342] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.169 seconds
+[2021-11-30 13:34:37,683] {scheduler_job.py:182} INFO - Started process (PID=225755) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:34:37,700] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:34:37,744] {logging_mixin.py:104} INFO - [2021-11-30 13:34:37,744] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:34:37,860] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:34:38,039] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.373 seconds
+[2021-11-30 13:35:08,531] {scheduler_job.py:182} INFO - Started process (PID=225778) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:35:08,541] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:35:08,550] {logging_mixin.py:104} INFO - [2021-11-30 13:35:08,549] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:35:08,642] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:35:08,824] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.337 seconds
+[2021-11-30 13:35:39,250] {scheduler_job.py:182} INFO - Started process (PID=225799) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:35:39,261] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:35:39,271] {logging_mixin.py:104} INFO - [2021-11-30 13:35:39,263] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:35:39,319] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:35:39,474] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.247 seconds
+[2021-11-30 13:36:09,756] {scheduler_job.py:182} INFO - Started process (PID=225819) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:36:09,766] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:36:09,770] {logging_mixin.py:104} INFO - [2021-11-30 13:36:09,770] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:36:09,794] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:36:09,859] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.115 seconds
+[2021-11-30 13:36:40,346] {scheduler_job.py:182} INFO - Started process (PID=225838) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:36:40,358] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:36:40,360] {logging_mixin.py:104} INFO - [2021-11-30 13:36:40,359] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:36:40,402] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:36:40,561] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.239 seconds
+[2021-11-30 13:37:10,874] {scheduler_job.py:182} INFO - Started process (PID=225858) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:37:10,879] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:37:10,885] {logging_mixin.py:104} INFO - [2021-11-30 13:37:10,884] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:37:10,909] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:37:11,006] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.151 seconds
+[2021-11-30 13:37:41,239] {scheduler_job.py:182} INFO - Started process (PID=225877) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:37:41,246] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:37:41,262] {logging_mixin.py:104} INFO - [2021-11-30 13:37:41,261] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:37:41,325] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:37:41,552] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.358 seconds
+[2021-11-30 13:38:12,410] {scheduler_job.py:182} INFO - Started process (PID=225899) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:38:12,425] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:38:12,427] {logging_mixin.py:104} INFO - [2021-11-30 13:38:12,427] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:38:12,514] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:38:12,646] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.256 seconds
+[2021-11-30 13:38:42,977] {scheduler_job.py:182} INFO - Started process (PID=226152) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:38:43,004] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:38:43,015] {logging_mixin.py:104} INFO - [2021-11-30 13:38:43,015] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:38:43,114] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:38:43,214] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.302 seconds
+[2021-11-30 13:39:13,672] {scheduler_job.py:182} INFO - Started process (PID=226172) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:39:13,694] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:39:13,742] {logging_mixin.py:104} INFO - [2021-11-30 13:39:13,742] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:39:13,780] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:39:13,903] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.271 seconds
+[2021-11-30 13:39:44,661] {scheduler_job.py:182} INFO - Started process (PID=226192) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:39:44,681] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:39:44,694] {logging_mixin.py:104} INFO - [2021-11-30 13:39:44,694] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:39:44,817] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:39:45,013] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.401 seconds
+[2021-11-30 13:40:15,244] {scheduler_job.py:182} INFO - Started process (PID=226213) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:40:15,256] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:40:15,266] {logging_mixin.py:104} INFO - [2021-11-30 13:40:15,266] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:40:15,302] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:40:15,404] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.177 seconds
+[2021-11-30 13:40:45,753] {scheduler_job.py:182} INFO - Started process (PID=226230) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:40:45,758] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:40:45,761] {logging_mixin.py:104} INFO - [2021-11-30 13:40:45,761] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:40:45,790] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:40:45,914] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.199 seconds
+[2021-11-30 13:41:16,647] {scheduler_job.py:182} INFO - Started process (PID=226247) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:41:16,732] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:41:16,808] {logging_mixin.py:104} INFO - [2021-11-30 13:41:16,808] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:41:17,010] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:41:17,235] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.642 seconds
+[2021-11-30 13:41:48,019] {scheduler_job.py:182} INFO - Started process (PID=226267) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:41:48,030] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:41:48,041] {logging_mixin.py:104} INFO - [2021-11-30 13:41:48,041] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:41:48,140] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:41:48,371] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.403 seconds
+[2021-11-30 13:42:18,687] {scheduler_job.py:182} INFO - Started process (PID=226286) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:42:18,696] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:42:18,699] {logging_mixin.py:104} INFO - [2021-11-30 13:42:18,698] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:42:18,741] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:42:18,798] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.126 seconds
+[2021-11-30 13:42:49,213] {scheduler_job.py:182} INFO - Started process (PID=226305) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:42:49,224] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:42:49,231] {logging_mixin.py:104} INFO - [2021-11-30 13:42:49,230] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:42:49,316] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:42:49,539] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.347 seconds
+[2021-11-30 13:43:19,984] {scheduler_job.py:182} INFO - Started process (PID=226565) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:43:19,994] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:43:19,999] {logging_mixin.py:104} INFO - [2021-11-30 13:43:19,999] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:43:20,061] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:43:20,315] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.351 seconds
+[2021-11-30 13:43:51,116] {scheduler_job.py:182} INFO - Started process (PID=226585) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:43:51,128] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:43:51,146] {logging_mixin.py:104} INFO - [2021-11-30 13:43:51,140] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:43:51,244] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:43:51,390] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.316 seconds
+[2021-11-30 13:44:21,749] {scheduler_job.py:182} INFO - Started process (PID=226605) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:44:21,760] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:44:21,771] {logging_mixin.py:104} INFO - [2021-11-30 13:44:21,771] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:44:21,837] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:44:21,949] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.227 seconds
+[2021-11-30 13:44:52,194] {scheduler_job.py:182} INFO - Started process (PID=226625) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:44:52,202] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:44:52,206] {logging_mixin.py:104} INFO - [2021-11-30 13:44:52,205] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:44:52,236] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:44:52,331] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.150 seconds
+[2021-11-30 13:45:22,843] {scheduler_job.py:182} INFO - Started process (PID=226648) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:45:22,846] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:45:22,866] {logging_mixin.py:104} INFO - [2021-11-30 13:45:22,865] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:45:22,885] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:45:22,938] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.106 seconds
+[2021-11-30 13:45:53,640] {scheduler_job.py:182} INFO - Started process (PID=226667) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:45:53,669] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:45:53,671] {logging_mixin.py:104} INFO - [2021-11-30 13:45:53,671] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:45:53,783] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:45:53,934] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.348 seconds
+[2021-11-30 13:46:24,598] {scheduler_job.py:182} INFO - Started process (PID=226687) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:46:24,610] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:46:24,618] {logging_mixin.py:104} INFO - [2021-11-30 13:46:24,617] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:46:24,650] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:46:24,809] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.253 seconds
+[2021-11-30 13:46:55,042] {scheduler_job.py:182} INFO - Started process (PID=226704) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:46:55,058] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:46:55,061] {logging_mixin.py:104} INFO - [2021-11-30 13:46:55,060] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:46:55,115] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:46:55,294] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.259 seconds
+[2021-11-30 13:47:25,906] {scheduler_job.py:182} INFO - Started process (PID=226721) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:47:25,909] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:47:25,911] {logging_mixin.py:104} INFO - [2021-11-30 13:47:25,910] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:47:25,923] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:47:25,951] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.053 seconds
+[2021-11-30 13:47:56,153] {scheduler_job.py:182} INFO - Started process (PID=226740) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:47:56,163] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:47:56,165] {logging_mixin.py:104} INFO - [2021-11-30 13:47:56,165] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:47:56,227] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:47:56,514] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.382 seconds
+[2021-11-30 13:48:26,881] {scheduler_job.py:182} INFO - Started process (PID=227000) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:48:26,890] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:48:26,892] {logging_mixin.py:104} INFO - [2021-11-30 13:48:26,892] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:48:26,945] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:48:27,159] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.309 seconds
+[2021-11-30 13:48:57,797] {scheduler_job.py:182} INFO - Started process (PID=227019) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:48:57,873] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:48:57,944] {logging_mixin.py:104} INFO - [2021-11-30 13:48:57,883] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:48:57,976] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:48:58,038] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.306 seconds
+[2021-11-30 13:49:28,671] {scheduler_job.py:182} INFO - Started process (PID=227090) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:49:28,676] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:49:28,686] {logging_mixin.py:104} INFO - [2021-11-30 13:49:28,686] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:49:28,713] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:49:28,822] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.169 seconds
+[2021-11-30 13:49:59,286] {scheduler_job.py:182} INFO - Started process (PID=227213) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:49:59,296] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:49:59,299] {logging_mixin.py:104} INFO - [2021-11-30 13:49:59,298] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:49:59,352] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:49:59,468] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.201 seconds
+[2021-11-30 13:50:29,911] {scheduler_job.py:182} INFO - Started process (PID=227294) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:50:29,931] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:50:29,942] {logging_mixin.py:104} INFO - [2021-11-30 13:50:29,942] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:50:30,099] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:50:30,234] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.350 seconds
+[2021-11-30 13:51:00,471] {scheduler_job.py:182} INFO - Started process (PID=227344) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:51:00,506] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:51:00,512] {logging_mixin.py:104} INFO - [2021-11-30 13:51:00,511] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:51:00,609] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:51:00,700] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.268 seconds
+[2021-11-30 13:51:31,068] {scheduler_job.py:182} INFO - Started process (PID=227363) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:51:31,087] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:51:31,090] {logging_mixin.py:104} INFO - [2021-11-30 13:51:31,090] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:51:31,108] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:51:31,152] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.145 seconds
+[2021-11-30 13:52:01,712] {scheduler_job.py:182} INFO - Started process (PID=227382) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:52:01,720] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:52:01,722] {logging_mixin.py:104} INFO - [2021-11-30 13:52:01,722] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:52:01,736] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:52:01,796] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.092 seconds
+[2021-11-30 13:52:32,535] {scheduler_job.py:182} INFO - Started process (PID=227462) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:52:32,541] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:52:32,542] {logging_mixin.py:104} INFO - [2021-11-30 13:52:32,542] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:52:32,571] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:52:32,736] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.215 seconds
+[2021-11-30 13:53:02,890] {scheduler_job.py:182} INFO - Started process (PID=227482) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:53:02,899] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:53:02,904] {logging_mixin.py:104} INFO - [2021-11-30 13:53:02,904] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:53:02,927] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:53:03,015] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.144 seconds
+[2021-11-30 13:53:33,414] {scheduler_job.py:182} INFO - Started process (PID=227742) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:53:33,421] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:53:33,428] {logging_mixin.py:104} INFO - [2021-11-30 13:53:33,427] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:53:33,442] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:53:33,493] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.117 seconds
+[2021-11-30 13:54:03,804] {scheduler_job.py:182} INFO - Started process (PID=227822) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:54:03,812] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:54:03,814] {logging_mixin.py:104} INFO - [2021-11-30 13:54:03,814] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:54:03,854] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:54:03,992] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.212 seconds
+[2021-11-30 13:54:34,604] {scheduler_job.py:182} INFO - Started process (PID=227838) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:54:34,623] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:54:34,627] {logging_mixin.py:104} INFO - [2021-11-30 13:54:34,626] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:54:34,785] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:54:35,143] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.562 seconds
+[2021-11-30 13:55:05,414] {scheduler_job.py:182} INFO - Started process (PID=228314) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:55:05,416] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:55:05,442] {logging_mixin.py:104} INFO - [2021-11-30 13:55:05,441] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:55:05,501] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:55:06,053] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.732 seconds
+[2021-11-30 13:55:37,256] {scheduler_job.py:182} INFO - Started process (PID=229116) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:55:37,290] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:55:37,332] {logging_mixin.py:104} INFO - [2021-11-30 13:55:37,331] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:55:37,472] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:55:37,955] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.800 seconds
+[2021-11-30 13:56:08,695] {scheduler_job.py:182} INFO - Started process (PID=229581) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:56:08,747] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:56:08,755] {logging_mixin.py:104} INFO - [2021-11-30 13:56:08,754] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:56:08,872] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:56:08,960] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.327 seconds
+[2021-11-30 13:56:39,325] {scheduler_job.py:182} INFO - Started process (PID=230297) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:56:39,348] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:56:39,355] {logging_mixin.py:104} INFO - [2021-11-30 13:56:39,354] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:56:39,414] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:56:39,631] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.329 seconds
+[2021-11-30 13:57:09,935] {scheduler_job.py:182} INFO - Started process (PID=230495) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:57:09,985] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:57:09,988] {logging_mixin.py:104} INFO - [2021-11-30 13:57:09,987] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:57:10,071] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:57:10,210] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.307 seconds
+[2021-11-30 13:57:40,783] {scheduler_job.py:182} INFO - Started process (PID=230691) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:57:40,791] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:57:40,799] {logging_mixin.py:104} INFO - [2021-11-30 13:57:40,799] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:57:41,021] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:57:41,149] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.423 seconds
+[2021-11-30 13:58:11,677] {scheduler_job.py:182} INFO - Started process (PID=230906) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:58:11,689] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:58:11,718] {logging_mixin.py:104} INFO - [2021-11-30 13:58:11,701] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:58:11,848] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:58:11,902] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.276 seconds
+[2021-11-30 13:58:42,416] {scheduler_job.py:182} INFO - Started process (PID=231360) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:58:42,425] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:58:42,441] {logging_mixin.py:104} INFO - [2021-11-30 13:58:42,441] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:58:42,467] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:58:42,699] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.290 seconds
+[2021-11-30 13:59:13,066] {scheduler_job.py:182} INFO - Started process (PID=231560) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:59:13,069] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:59:13,072] {logging_mixin.py:104} INFO - [2021-11-30 13:59:13,070] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:59:13,079] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:59:13,108] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.046 seconds
+[2021-11-30 13:59:43,969] {scheduler_job.py:182} INFO - Started process (PID=231771) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:59:44,070] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 13:59:44,145] {logging_mixin.py:104} INFO - [2021-11-30 13:59:44,144] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:59:44,493] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 13:59:44,941] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 1.309 seconds
+[2021-11-30 14:00:15,280] {scheduler_job.py:182} INFO - Started process (PID=232021) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 14:00:15,290] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 14:00:15,294] {logging_mixin.py:104} INFO - [2021-11-30 14:00:15,293] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 14:00:15,370] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 14:00:15,663] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.407 seconds
