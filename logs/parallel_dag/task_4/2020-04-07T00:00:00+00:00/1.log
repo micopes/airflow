@@ -1,0 +1,8 @@
+[2021-11-29 12:39:59,369] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: parallel_dag.task_4 2020-04-07T00:00:00+00:00 [queued]>
+[2021-11-29 12:40:00,073] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: parallel_dag.task_4 2020-04-07T00:00:00+00:00 [queued]>
+[2021-11-29 12:40:00,073] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-11-29 12:40:00,074] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-11-29 12:40:00,074] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-11-29 12:40:00,450] {taskinstance.py:1087} INFO - Executing <Task(BashOperator): task_4> on 2020-04-07T00:00:00+00:00
