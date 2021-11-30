@@ -26,4 +26,4 @@ with DAG('parallel_dag', schedule_interval = '@daily', default_args = default_ar
         bash_command = 'sleep 3'
     )
 
-    task_1 >> [processing] >> task_4
+    task_1 >> processing >> task_4
