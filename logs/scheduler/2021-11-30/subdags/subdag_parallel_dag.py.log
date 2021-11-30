@@ -1,0 +1,1604 @@
+[2021-11-30 11:33:32,543] {scheduler_job.py:182} INFO - Started process (PID=214487) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:33:32,544] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:33:32,545] {logging_mixin.py:104} INFO - [2021-11-30 11:33:32,545] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:33:32,547] {logging_mixin.py:104} INFO - [2021-11-30 11:33:32,547] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:33:32,548] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:33:32,570] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.030 seconds
+[2021-11-30 11:34:02,700] {scheduler_job.py:182} INFO - Started process (PID=214506) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:34:02,701] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:34:02,702] {logging_mixin.py:104} INFO - [2021-11-30 11:34:02,702] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:34:02,704] {logging_mixin.py:104} INFO - [2021-11-30 11:34:02,703] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:34:02,704] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:34:02,726] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.028 seconds
+[2021-11-30 11:34:32,882] {scheduler_job.py:182} INFO - Started process (PID=214526) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:34:32,888] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:34:32,889] {logging_mixin.py:104} INFO - [2021-11-30 11:34:32,889] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:34:32,890] {logging_mixin.py:104} INFO - [2021-11-30 11:34:32,890] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:34:32,891] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:34:32,913] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.034 seconds
+[2021-11-30 11:35:03,005] {scheduler_job.py:182} INFO - Started process (PID=214549) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:35:03,006] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:35:03,007] {logging_mixin.py:104} INFO - [2021-11-30 11:35:03,007] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:35:03,009] {logging_mixin.py:104} INFO - [2021-11-30 11:35:03,008] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:35:03,010] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:35:03,037] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.035 seconds
+[2021-11-30 11:35:33,153] {scheduler_job.py:182} INFO - Started process (PID=214569) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:35:33,155] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:35:33,156] {logging_mixin.py:104} INFO - [2021-11-30 11:35:33,156] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:35:33,159] {logging_mixin.py:104} INFO - [2021-11-30 11:35:33,158] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:35:33,160] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:35:33,182] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.033 seconds
+[2021-11-30 11:36:03,306] {scheduler_job.py:182} INFO - Started process (PID=214589) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:36:03,309] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:36:03,310] {logging_mixin.py:104} INFO - [2021-11-30 11:36:03,310] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:36:03,312] {logging_mixin.py:104} INFO - [2021-11-30 11:36:03,311] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:36:03,312] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:36:03,341] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.039 seconds
+[2021-11-30 11:36:33,460] {scheduler_job.py:182} INFO - Started process (PID=214608) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:36:33,461] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:36:33,462] {logging_mixin.py:104} INFO - [2021-11-30 11:36:33,462] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:36:33,464] {logging_mixin.py:104} INFO - [2021-11-30 11:36:33,463] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:36:33,464] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:36:33,493] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.036 seconds
+[2021-11-30 11:37:03,630] {scheduler_job.py:182} INFO - Started process (PID=214628) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:37:03,631] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:37:03,632] {logging_mixin.py:104} INFO - [2021-11-30 11:37:03,632] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:37:03,633] {logging_mixin.py:104} INFO - [2021-11-30 11:37:03,633] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:37:03,634] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:37:03,661] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.034 seconds
+[2021-11-30 11:37:33,786] {scheduler_job.py:182} INFO - Started process (PID=214648) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:37:33,788] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:37:33,789] {logging_mixin.py:104} INFO - [2021-11-30 11:37:33,789] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:37:33,791] {logging_mixin.py:104} INFO - [2021-11-30 11:37:33,791] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:37:33,792] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:37:33,820] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.036 seconds
+[2021-11-30 11:38:03,982] {scheduler_job.py:182} INFO - Started process (PID=214662) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:38:03,985] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:38:03,998] {logging_mixin.py:104} INFO - [2021-11-30 11:38:03,998] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:38:04,001] {logging_mixin.py:104} INFO - [2021-11-30 11:38:04,001] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:38:04,003] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:38:04,091] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.135 seconds
+[2021-11-30 11:38:34,194] {scheduler_job.py:182} INFO - Started process (PID=215050) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:38:34,197] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:38:34,203] {logging_mixin.py:104} INFO - [2021-11-30 11:38:34,203] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:38:34,208] {logging_mixin.py:104} INFO - [2021-11-30 11:38:34,207] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:38:34,213] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:38:34,278] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.089 seconds
+[2021-11-30 11:39:04,523] {scheduler_job.py:182} INFO - Started process (PID=215070) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:39:04,525] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:39:04,527] {logging_mixin.py:104} INFO - [2021-11-30 11:39:04,527] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:39:04,533] {logging_mixin.py:104} INFO - [2021-11-30 11:39:04,532] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:39:04,534] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:39:04,591] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.073 seconds
+[2021-11-30 11:39:34,783] {scheduler_job.py:182} INFO - Started process (PID=215089) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:39:34,784] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:39:34,785] {logging_mixin.py:104} INFO - [2021-11-30 11:39:34,785] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:39:34,789] {logging_mixin.py:104} INFO - [2021-11-30 11:39:34,787] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:39:34,790] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:39:34,818] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.042 seconds
+[2021-11-30 11:40:04,935] {scheduler_job.py:182} INFO - Started process (PID=215110) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:40:04,937] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:40:04,938] {logging_mixin.py:104} INFO - [2021-11-30 11:40:04,938] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:40:04,940] {logging_mixin.py:104} INFO - [2021-11-30 11:40:04,939] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:40:04,941] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:40:04,967] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.035 seconds
+[2021-11-30 11:40:35,078] {scheduler_job.py:182} INFO - Started process (PID=215130) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:40:35,080] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:40:35,080] {logging_mixin.py:104} INFO - [2021-11-30 11:40:35,080] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:40:35,084] {logging_mixin.py:104} INFO - [2021-11-30 11:40:35,082] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:40:35,085] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:40:35,113] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.038 seconds
+[2021-11-30 11:41:05,272] {scheduler_job.py:182} INFO - Started process (PID=215150) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:41:05,274] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:41:05,276] {logging_mixin.py:104} INFO - [2021-11-30 11:41:05,275] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:41:05,278] {logging_mixin.py:104} INFO - [2021-11-30 11:41:05,277] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:41:05,279] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:41:05,308] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.040 seconds
+[2021-11-30 11:41:35,427] {scheduler_job.py:182} INFO - Started process (PID=215170) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:41:35,429] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:41:35,430] {logging_mixin.py:104} INFO - [2021-11-30 11:41:35,430] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:41:35,431] {logging_mixin.py:104} INFO - [2021-11-30 11:41:35,431] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:41:35,432] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:41:35,454] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.029 seconds
+[2021-11-30 11:42:05,590] {scheduler_job.py:182} INFO - Started process (PID=215190) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:42:05,591] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:42:05,592] {logging_mixin.py:104} INFO - [2021-11-30 11:42:05,592] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:42:05,594] {logging_mixin.py:104} INFO - [2021-11-30 11:42:05,593] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:42:05,594] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:42:05,614] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.028 seconds
+[2021-11-30 11:42:35,752] {scheduler_job.py:182} INFO - Started process (PID=215210) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:42:35,753] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:42:35,754] {logging_mixin.py:104} INFO - [2021-11-30 11:42:35,754] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:42:35,756] {logging_mixin.py:104} INFO - [2021-11-30 11:42:35,755] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:42:35,756] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:42:35,776] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.027 seconds
+[2021-11-30 11:43:05,930] {scheduler_job.py:182} INFO - Started process (PID=215230) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:43:05,932] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:43:05,933] {logging_mixin.py:104} INFO - [2021-11-30 11:43:05,933] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:43:05,936] {logging_mixin.py:104} INFO - [2021-11-30 11:43:05,935] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:43:05,937] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:43:05,965] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.038 seconds
+[2021-11-30 11:43:36,131] {scheduler_job.py:182} INFO - Started process (PID=215490) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:43:36,134] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:43:36,136] {logging_mixin.py:104} INFO - [2021-11-30 11:43:36,135] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:43:36,141] {logging_mixin.py:104} INFO - [2021-11-30 11:43:36,139] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:43:36,143] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:43:36,189] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.063 seconds
+[2021-11-30 11:44:06,284] {scheduler_job.py:182} INFO - Started process (PID=215510) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:44:06,292] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:44:06,293] {logging_mixin.py:104} INFO - [2021-11-30 11:44:06,293] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:44:06,297] {logging_mixin.py:104} INFO - [2021-11-30 11:44:06,296] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:44:06,299] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:44:06,353] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.074 seconds
+[2021-11-30 11:44:36,423] {scheduler_job.py:182} INFO - Started process (PID=215530) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:44:36,427] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:44:36,429] {logging_mixin.py:104} INFO - [2021-11-30 11:44:36,428] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:44:36,435] {logging_mixin.py:104} INFO - [2021-11-30 11:44:36,431] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:44:36,437] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:44:36,479] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.062 seconds
+[2021-11-30 11:45:06,746] {scheduler_job.py:182} INFO - Started process (PID=215553) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:45:06,749] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:45:06,750] {logging_mixin.py:104} INFO - [2021-11-30 11:45:06,750] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:45:06,754] {logging_mixin.py:104} INFO - [2021-11-30 11:45:06,753] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:45:06,755] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:45:06,805] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.063 seconds
+[2021-11-30 11:45:36,950] {scheduler_job.py:182} INFO - Started process (PID=215572) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:45:36,954] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:45:36,955] {logging_mixin.py:104} INFO - [2021-11-30 11:45:36,955] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:45:36,976] {logging_mixin.py:104} INFO - [2021-11-30 11:45:36,965] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:45:36,984] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:45:37,057] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.113 seconds
+[2021-11-30 11:46:07,173] {scheduler_job.py:182} INFO - Started process (PID=215591) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:46:07,176] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:46:07,178] {logging_mixin.py:104} INFO - [2021-11-30 11:46:07,178] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:46:07,183] {logging_mixin.py:104} INFO - [2021-11-30 11:46:07,182] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:46:07,184] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:46:07,237] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.070 seconds
+[2021-11-30 11:46:37,392] {scheduler_job.py:182} INFO - Started process (PID=215611) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:46:37,395] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:46:37,396] {logging_mixin.py:104} INFO - [2021-11-30 11:46:37,396] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:46:37,399] {logging_mixin.py:104} INFO - [2021-11-30 11:46:37,398] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:46:37,400] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:46:37,431] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.042 seconds
+[2021-11-30 11:47:07,553] {scheduler_job.py:182} INFO - Started process (PID=215631) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:47:07,555] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:47:07,556] {logging_mixin.py:104} INFO - [2021-11-30 11:47:07,556] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:47:07,558] {logging_mixin.py:104} INFO - [2021-11-30 11:47:07,557] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:47:07,559] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:47:07,586] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.036 seconds
+[2021-11-30 11:47:37,709] {scheduler_job.py:182} INFO - Started process (PID=215651) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:47:37,711] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:47:37,712] {logging_mixin.py:104} INFO - [2021-11-30 11:47:37,712] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:47:37,716] {logging_mixin.py:104} INFO - [2021-11-30 11:47:37,715] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:47:37,717] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:47:37,751] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.049 seconds
+[2021-11-30 11:48:07,873] {scheduler_job.py:182} INFO - Started process (PID=215672) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:48:07,875] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:48:07,877] {logging_mixin.py:104} INFO - [2021-11-30 11:48:07,877] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:48:07,881] {logging_mixin.py:104} INFO - [2021-11-30 11:48:07,880] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:48:07,881] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:48:07,906] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.036 seconds
+[2021-11-30 11:48:38,049] {scheduler_job.py:182} INFO - Started process (PID=215931) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:48:38,051] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:48:38,052] {logging_mixin.py:104} INFO - [2021-11-30 11:48:38,052] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:48:38,054] {logging_mixin.py:104} INFO - [2021-11-30 11:48:38,054] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:48:38,055] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:48:38,078] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.031 seconds
+[2021-11-30 11:49:08,197] {scheduler_job.py:182} INFO - Started process (PID=215950) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:49:08,199] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:49:08,200] {logging_mixin.py:104} INFO - [2021-11-30 11:49:08,200] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:49:08,204] {logging_mixin.py:104} INFO - [2021-11-30 11:49:08,203] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:49:08,205] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:49:08,237] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.044 seconds
+[2021-11-30 11:49:38,350] {scheduler_job.py:182} INFO - Started process (PID=215970) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:49:38,352] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:49:38,352] {logging_mixin.py:104} INFO - [2021-11-30 11:49:38,352] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:49:38,354] {logging_mixin.py:104} INFO - [2021-11-30 11:49:38,354] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:49:38,355] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:49:38,378] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.032 seconds
+[2021-11-30 11:50:08,498] {scheduler_job.py:182} INFO - Started process (PID=215991) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:50:08,500] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:50:08,501] {logging_mixin.py:104} INFO - [2021-11-30 11:50:08,501] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:50:08,503] {logging_mixin.py:104} INFO - [2021-11-30 11:50:08,502] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:50:08,503] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:50:08,531] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.035 seconds
+[2021-11-30 11:50:38,654] {scheduler_job.py:182} INFO - Started process (PID=216011) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:50:38,656] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:50:38,657] {logging_mixin.py:104} INFO - [2021-11-30 11:50:38,657] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:50:38,659] {logging_mixin.py:104} INFO - [2021-11-30 11:50:38,658] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:50:38,659] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:50:38,702] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.051 seconds
+[2021-11-30 11:51:08,809] {scheduler_job.py:182} INFO - Started process (PID=216031) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:51:08,812] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:51:08,813] {logging_mixin.py:104} INFO - [2021-11-30 11:51:08,813] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:51:08,818] {logging_mixin.py:104} INFO - [2021-11-30 11:51:08,817] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:51:08,818] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:51:08,853] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.047 seconds
+[2021-11-30 11:51:38,967] {scheduler_job.py:182} INFO - Started process (PID=216050) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:51:38,968] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:51:38,969] {logging_mixin.py:104} INFO - [2021-11-30 11:51:38,969] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:51:38,972] {logging_mixin.py:104} INFO - [2021-11-30 11:51:38,971] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:51:38,973] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:51:39,007] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.044 seconds
+[2021-11-30 11:52:09,113] {scheduler_job.py:182} INFO - Started process (PID=216069) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:52:09,115] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:52:09,116] {logging_mixin.py:104} INFO - [2021-11-30 11:52:09,115] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:52:09,117] {logging_mixin.py:104} INFO - [2021-11-30 11:52:09,117] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:52:09,118] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:52:09,147] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.038 seconds
+[2021-11-30 11:52:39,258] {scheduler_job.py:182} INFO - Started process (PID=216089) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:52:39,259] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:52:39,260] {logging_mixin.py:104} INFO - [2021-11-30 11:52:39,260] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:52:39,263] {logging_mixin.py:104} INFO - [2021-11-30 11:52:39,262] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:52:39,264] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:52:39,297] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.043 seconds
+[2021-11-30 11:53:09,407] {scheduler_job.py:182} INFO - Started process (PID=216110) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:53:09,422] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:53:09,424] {logging_mixin.py:104} INFO - [2021-11-30 11:53:09,424] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:53:09,428] {logging_mixin.py:104} INFO - [2021-11-30 11:53:09,427] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:53:09,430] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:53:09,474] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.070 seconds
+[2021-11-30 11:53:39,519] {scheduler_job.py:182} INFO - Started process (PID=216364) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:53:39,520] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:53:39,527] {logging_mixin.py:104} INFO - [2021-11-30 11:53:39,527] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:53:39,529] {logging_mixin.py:104} INFO - [2021-11-30 11:53:39,528] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:53:39,531] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:53:39,586] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.070 seconds
+[2021-11-30 11:54:09,699] {scheduler_job.py:182} INFO - Started process (PID=216384) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:54:09,701] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:54:09,702] {logging_mixin.py:104} INFO - [2021-11-30 11:54:09,702] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:54:09,704] {logging_mixin.py:104} INFO - [2021-11-30 11:54:09,703] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:54:09,705] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:54:09,736] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.042 seconds
+[2021-11-30 11:54:39,843] {scheduler_job.py:182} INFO - Started process (PID=216403) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:54:39,846] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:54:39,847] {logging_mixin.py:104} INFO - [2021-11-30 11:54:39,847] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:54:39,848] {logging_mixin.py:104} INFO - [2021-11-30 11:54:39,848] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:54:39,849] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:54:39,870] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.032 seconds
+[2021-11-30 11:55:10,117] {scheduler_job.py:182} INFO - Started process (PID=216426) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:55:10,120] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:55:10,124] {logging_mixin.py:104} INFO - [2021-11-30 11:55:10,122] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:55:10,126] {logging_mixin.py:104} INFO - [2021-11-30 11:55:10,125] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:55:10,127] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:55:10,158] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.045 seconds
+[2021-11-30 11:55:40,248] {scheduler_job.py:182} INFO - Started process (PID=216445) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:55:40,250] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:55:40,251] {logging_mixin.py:104} INFO - [2021-11-30 11:55:40,251] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:55:40,253] {logging_mixin.py:104} INFO - [2021-11-30 11:55:40,252] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:55:40,254] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:55:40,276] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.030 seconds
+[2021-11-30 11:56:10,380] {scheduler_job.py:182} INFO - Started process (PID=216465) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:56:10,382] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:56:10,382] {logging_mixin.py:104} INFO - [2021-11-30 11:56:10,382] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:56:10,384] {logging_mixin.py:104} INFO - [2021-11-30 11:56:10,383] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:56:10,385] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:56:10,426] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.049 seconds
+[2021-11-30 11:56:40,531] {scheduler_job.py:182} INFO - Started process (PID=216485) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:56:40,533] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:56:40,533] {logging_mixin.py:104} INFO - [2021-11-30 11:56:40,533] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:56:40,535] {logging_mixin.py:104} INFO - [2021-11-30 11:56:40,535] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:56:40,536] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:56:40,554] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.026 seconds
+[2021-11-30 11:57:10,718] {scheduler_job.py:182} INFO - Started process (PID=216505) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:57:10,720] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:57:10,721] {logging_mixin.py:104} INFO - [2021-11-30 11:57:10,721] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:57:10,723] {logging_mixin.py:104} INFO - [2021-11-30 11:57:10,722] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:57:10,724] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:57:10,744] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.033 seconds
+[2021-11-30 11:57:40,866] {scheduler_job.py:182} INFO - Started process (PID=216524) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:57:40,868] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:57:40,868] {logging_mixin.py:104} INFO - [2021-11-30 11:57:40,868] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:57:40,870] {logging_mixin.py:104} INFO - [2021-11-30 11:57:40,870] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:57:40,871] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:57:40,891] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.027 seconds
+[2021-11-30 11:58:11,037] {scheduler_job.py:182} INFO - Started process (PID=216589) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:58:11,038] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:58:11,039] {logging_mixin.py:104} INFO - [2021-11-30 11:58:11,039] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:58:11,041] {logging_mixin.py:104} INFO - [2021-11-30 11:58:11,040] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:58:11,041] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:58:11,067] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.032 seconds
+[2021-11-30 11:58:41,256] {scheduler_job.py:182} INFO - Started process (PID=216804) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:58:41,258] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:58:41,259] {logging_mixin.py:104} INFO - [2021-11-30 11:58:41,259] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:58:41,261] {logging_mixin.py:104} INFO - [2021-11-30 11:58:41,260] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:58:41,266] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:58:41,286] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.036 seconds
+[2021-11-30 11:59:11,413] {scheduler_job.py:182} INFO - Started process (PID=216824) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:59:11,415] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:59:11,416] {logging_mixin.py:104} INFO - [2021-11-30 11:59:11,416] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:59:11,418] {logging_mixin.py:104} INFO - [2021-11-30 11:59:11,417] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:59:11,419] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:59:11,438] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.029 seconds
+[2021-11-30 11:59:41,583] {scheduler_job.py:182} INFO - Started process (PID=216844) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:59:41,585] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 11:59:41,586] {logging_mixin.py:104} INFO - [2021-11-30 11:59:41,586] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:59:41,588] {logging_mixin.py:104} INFO - [2021-11-30 11:59:41,588] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 11:59:41,589] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 11:59:41,611] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.032 seconds
+[2021-11-30 12:00:11,741] {scheduler_job.py:182} INFO - Started process (PID=216865) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:00:11,743] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:00:11,744] {logging_mixin.py:104} INFO - [2021-11-30 12:00:11,744] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:00:11,746] {logging_mixin.py:104} INFO - [2021-11-30 12:00:11,745] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:00:11,747] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:00:11,766] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.029 seconds
+[2021-11-30 12:00:41,925] {scheduler_job.py:182} INFO - Started process (PID=216884) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:00:41,927] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:00:41,929] {logging_mixin.py:104} INFO - [2021-11-30 12:00:41,929] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:00:41,932] {logging_mixin.py:104} INFO - [2021-11-30 12:00:41,931] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:00:41,933] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:00:41,950] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.027 seconds
+[2021-11-30 12:01:12,112] {scheduler_job.py:182} INFO - Started process (PID=216904) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:01:12,117] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:01:12,118] {logging_mixin.py:104} INFO - [2021-11-30 12:01:12,118] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:01:12,120] {logging_mixin.py:104} INFO - [2021-11-30 12:01:12,119] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:01:12,121] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:01:12,154] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.045 seconds
+[2021-11-30 12:01:42,296] {scheduler_job.py:182} INFO - Started process (PID=216923) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:01:42,298] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:01:42,299] {logging_mixin.py:104} INFO - [2021-11-30 12:01:42,299] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:01:42,312] {logging_mixin.py:104} INFO - [2021-11-30 12:01:42,309] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:01:42,313] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:01:42,334] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.040 seconds
+[2021-11-30 12:02:12,511] {scheduler_job.py:182} INFO - Started process (PID=216943) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:02:12,514] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:02:12,515] {logging_mixin.py:104} INFO - [2021-11-30 12:02:12,515] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:02:12,518] {logging_mixin.py:104} INFO - [2021-11-30 12:02:12,517] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:02:12,519] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:02:12,558] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.051 seconds
+[2021-11-30 12:02:42,697] {scheduler_job.py:182} INFO - Started process (PID=216963) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:02:42,699] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:02:42,700] {logging_mixin.py:104} INFO - [2021-11-30 12:02:42,700] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:02:42,703] {logging_mixin.py:104} INFO - [2021-11-30 12:02:42,701] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:02:42,704] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:02:42,731] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.037 seconds
+[2021-11-30 12:03:12,866] {scheduler_job.py:182} INFO - Started process (PID=217103) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:03:12,868] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:03:12,868] {logging_mixin.py:104} INFO - [2021-11-30 12:03:12,868] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:03:12,870] {logging_mixin.py:104} INFO - [2021-11-30 12:03:12,870] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:03:12,871] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:03:12,908] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.045 seconds
+[2021-11-30 12:03:43,049] {scheduler_job.py:182} INFO - Started process (PID=217244) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:03:43,050] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:03:43,051] {logging_mixin.py:104} INFO - [2021-11-30 12:03:43,051] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:03:43,053] {logging_mixin.py:104} INFO - [2021-11-30 12:03:43,052] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:03:43,055] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:03:43,073] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.027 seconds
+[2021-11-30 12:04:13,230] {scheduler_job.py:182} INFO - Started process (PID=217264) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:04:13,232] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:04:13,233] {logging_mixin.py:104} INFO - [2021-11-30 12:04:13,233] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:04:13,238] {logging_mixin.py:104} INFO - [2021-11-30 12:04:13,237] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:04:13,239] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:04:13,270] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.044 seconds
+[2021-11-30 12:04:43,388] {scheduler_job.py:182} INFO - Started process (PID=217283) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:04:43,389] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:04:43,391] {logging_mixin.py:104} INFO - [2021-11-30 12:04:43,390] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:04:43,393] {logging_mixin.py:104} INFO - [2021-11-30 12:04:43,392] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:04:43,394] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:04:43,415] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.030 seconds
+[2021-11-30 12:05:13,541] {scheduler_job.py:182} INFO - Started process (PID=217307) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:05:13,543] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:05:13,544] {logging_mixin.py:104} INFO - [2021-11-30 12:05:13,544] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:05:13,549] {logging_mixin.py:104} INFO - [2021-11-30 12:05:13,545] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:05:13,550] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:05:13,581] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.043 seconds
+[2021-11-30 12:05:43,742] {scheduler_job.py:182} INFO - Started process (PID=217327) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:05:43,744] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:05:43,745] {logging_mixin.py:104} INFO - [2021-11-30 12:05:43,745] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:05:43,748] {logging_mixin.py:104} INFO - [2021-11-30 12:05:43,747] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:05:43,749] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:05:43,770] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.034 seconds
+[2021-11-30 12:06:13,902] {scheduler_job.py:182} INFO - Started process (PID=217347) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:06:13,907] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:06:13,908] {logging_mixin.py:104} INFO - [2021-11-30 12:06:13,908] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:06:13,910] {logging_mixin.py:104} INFO - [2021-11-30 12:06:13,910] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:06:13,911] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:06:13,930] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.031 seconds
+[2021-11-30 12:06:44,066] {scheduler_job.py:182} INFO - Started process (PID=217366) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:06:44,070] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:06:44,072] {logging_mixin.py:104} INFO - [2021-11-30 12:06:44,072] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:06:44,074] {logging_mixin.py:104} INFO - [2021-11-30 12:06:44,074] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:06:44,077] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:06:44,102] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.047 seconds
+[2021-11-30 12:07:14,202] {scheduler_job.py:182} INFO - Started process (PID=217386) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:07:14,204] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:07:14,205] {logging_mixin.py:104} INFO - [2021-11-30 12:07:14,205] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:07:14,208] {logging_mixin.py:104} INFO - [2021-11-30 12:07:14,206] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:07:14,209] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:07:14,235] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.035 seconds
+[2021-11-30 12:07:44,366] {scheduler_job.py:182} INFO - Started process (PID=217405) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:07:44,368] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:07:44,368] {logging_mixin.py:104} INFO - [2021-11-30 12:07:44,368] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:07:44,370] {logging_mixin.py:104} INFO - [2021-11-30 12:07:44,369] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:07:44,370] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:07:44,398] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.035 seconds
+[2021-11-30 12:08:14,522] {scheduler_job.py:182} INFO - Started process (PID=217545) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:08:14,524] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:08:14,524] {logging_mixin.py:104} INFO - [2021-11-30 12:08:14,524] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:08:14,526] {logging_mixin.py:104} INFO - [2021-11-30 12:08:14,525] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:08:14,527] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:08:14,554] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.034 seconds
+[2021-11-30 12:08:44,755] {scheduler_job.py:182} INFO - Started process (PID=217685) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:08:44,759] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:08:44,760] {logging_mixin.py:104} INFO - [2021-11-30 12:08:44,760] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:08:44,762] {logging_mixin.py:104} INFO - [2021-11-30 12:08:44,761] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:08:44,762] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:08:44,781] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.030 seconds
+[2021-11-30 12:09:14,933] {scheduler_job.py:182} INFO - Started process (PID=217699) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:09:14,936] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:09:14,937] {logging_mixin.py:104} INFO - [2021-11-30 12:09:14,936] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:09:14,943] {logging_mixin.py:104} INFO - [2021-11-30 12:09:14,943] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:09:14,945] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:09:14,984] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.071 seconds
+[2021-11-30 12:09:45,127] {scheduler_job.py:182} INFO - Started process (PID=217718) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:09:45,128] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:09:45,129] {logging_mixin.py:104} INFO - [2021-11-30 12:09:45,129] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:09:45,131] {logging_mixin.py:104} INFO - [2021-11-30 12:09:45,130] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:09:45,132] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:09:45,154] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.029 seconds
+[2021-11-30 12:10:15,278] {scheduler_job.py:182} INFO - Started process (PID=217739) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:10:15,280] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:10:15,281] {logging_mixin.py:104} INFO - [2021-11-30 12:10:15,281] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:10:15,283] {logging_mixin.py:104} INFO - [2021-11-30 12:10:15,282] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:10:15,284] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:10:15,309] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.035 seconds
+[2021-11-30 12:10:45,546] {scheduler_job.py:182} INFO - Started process (PID=217759) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:10:45,549] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:10:45,550] {logging_mixin.py:104} INFO - [2021-11-30 12:10:45,550] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:10:45,553] {logging_mixin.py:104} INFO - [2021-11-30 12:10:45,551] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:10:45,554] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:10:45,581] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.037 seconds
+[2021-11-30 12:11:15,734] {scheduler_job.py:182} INFO - Started process (PID=217779) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:11:15,736] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:11:15,736] {logging_mixin.py:104} INFO - [2021-11-30 12:11:15,736] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:11:15,738] {logging_mixin.py:104} INFO - [2021-11-30 12:11:15,738] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:11:15,739] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:11:15,765] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.035 seconds
+[2021-11-30 12:11:45,889] {scheduler_job.py:182} INFO - Started process (PID=217799) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:11:45,890] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:11:45,891] {logging_mixin.py:104} INFO - [2021-11-30 12:11:45,891] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:11:45,892] {logging_mixin.py:104} INFO - [2021-11-30 12:11:45,892] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:11:45,893] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:11:45,912] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.027 seconds
+[2021-11-30 12:12:16,051] {scheduler_job.py:182} INFO - Started process (PID=217819) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:12:16,053] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:12:16,054] {logging_mixin.py:104} INFO - [2021-11-30 12:12:16,054] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:12:16,056] {logging_mixin.py:104} INFO - [2021-11-30 12:12:16,056] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:12:16,057] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:12:16,082] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.037 seconds
+[2021-11-30 12:12:46,210] {scheduler_job.py:182} INFO - Started process (PID=217838) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:12:46,212] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:12:46,213] {logging_mixin.py:104} INFO - [2021-11-30 12:12:46,213] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:12:46,216] {logging_mixin.py:104} INFO - [2021-11-30 12:12:46,214] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:12:46,217] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:12:46,244] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.038 seconds
+[2021-11-30 12:13:16,416] {scheduler_job.py:182} INFO - Started process (PID=218023) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:13:16,418] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:13:16,419] {logging_mixin.py:104} INFO - [2021-11-30 12:13:16,419] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:13:16,425] {logging_mixin.py:104} INFO - [2021-11-30 12:13:16,425] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:13:16,426] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:13:16,455] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.044 seconds
+[2021-11-30 12:13:46,609] {scheduler_job.py:182} INFO - Started process (PID=218118) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:13:46,611] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:13:46,612] {logging_mixin.py:104} INFO - [2021-11-30 12:13:46,612] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:13:46,614] {logging_mixin.py:104} INFO - [2021-11-30 12:13:46,614] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:13:46,615] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:13:46,644] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.040 seconds
+[2021-11-30 12:14:16,804] {scheduler_job.py:182} INFO - Started process (PID=218137) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:14:16,808] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:14:16,809] {logging_mixin.py:104} INFO - [2021-11-30 12:14:16,809] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:14:16,810] {logging_mixin.py:104} INFO - [2021-11-30 12:14:16,810] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:14:16,814] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:14:16,837] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.035 seconds
+[2021-11-30 12:14:46,990] {scheduler_job.py:182} INFO - Started process (PID=218157) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:14:46,994] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:14:46,995] {logging_mixin.py:104} INFO - [2021-11-30 12:14:46,995] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:14:46,997] {logging_mixin.py:104} INFO - [2021-11-30 12:14:46,997] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:14:46,998] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:14:47,022] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.034 seconds
+[2021-11-30 12:15:17,150] {scheduler_job.py:182} INFO - Started process (PID=218180) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:15:17,154] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:15:17,155] {logging_mixin.py:104} INFO - [2021-11-30 12:15:17,155] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:15:17,157] {logging_mixin.py:104} INFO - [2021-11-30 12:15:17,156] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:15:17,158] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:15:17,178] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.033 seconds
+[2021-11-30 12:15:47,372] {scheduler_job.py:182} INFO - Started process (PID=218199) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:15:47,374] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:15:47,374] {logging_mixin.py:104} INFO - [2021-11-30 12:15:47,374] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:15:47,377] {logging_mixin.py:104} INFO - [2021-11-30 12:15:47,376] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:15:47,378] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:15:47,398] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.028 seconds
+[2021-11-30 12:16:17,504] {scheduler_job.py:182} INFO - Started process (PID=218219) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:16:17,506] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:16:17,507] {logging_mixin.py:104} INFO - [2021-11-30 12:16:17,507] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:16:17,509] {logging_mixin.py:104} INFO - [2021-11-30 12:16:17,508] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:16:17,509] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:16:17,530] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.029 seconds
+[2021-11-30 12:16:47,699] {scheduler_job.py:182} INFO - Started process (PID=218240) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:16:47,700] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:16:47,701] {logging_mixin.py:104} INFO - [2021-11-30 12:16:47,701] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:16:47,703] {logging_mixin.py:104} INFO - [2021-11-30 12:16:47,703] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:16:47,704] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:16:47,735] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.040 seconds
+[2021-11-30 12:17:17,877] {scheduler_job.py:182} INFO - Started process (PID=218263) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:17:17,878] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:17:17,880] {logging_mixin.py:104} INFO - [2021-11-30 12:17:17,879] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:17:17,881] {logging_mixin.py:104} INFO - [2021-11-30 12:17:17,881] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:17:17,882] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:17:17,902] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.028 seconds
+[2021-11-30 12:17:48,012] {scheduler_job.py:182} INFO - Started process (PID=218282) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:17:48,014] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:17:48,015] {logging_mixin.py:104} INFO - [2021-11-30 12:17:48,015] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:17:48,017] {logging_mixin.py:104} INFO - [2021-11-30 12:17:48,016] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:17:48,018] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:17:48,045] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.035 seconds
+[2021-11-30 12:18:18,139] {scheduler_job.py:182} INFO - Started process (PID=218542) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:18:18,140] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:18:18,142] {logging_mixin.py:104} INFO - [2021-11-30 12:18:18,141] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:18:18,143] {logging_mixin.py:104} INFO - [2021-11-30 12:18:18,143] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:18:18,144] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:18:18,163] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.026 seconds
+[2021-11-30 12:18:48,324] {scheduler_job.py:182} INFO - Started process (PID=218597) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:18:48,325] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:18:48,326] {logging_mixin.py:104} INFO - [2021-11-30 12:18:48,326] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:18:48,328] {logging_mixin.py:104} INFO - [2021-11-30 12:18:48,327] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:18:48,328] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:18:48,349] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.028 seconds
+[2021-11-30 12:19:18,448] {scheduler_job.py:182} INFO - Started process (PID=218649) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:19:18,456] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:19:18,458] {logging_mixin.py:104} INFO - [2021-11-30 12:19:18,457] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:19:18,460] {logging_mixin.py:104} INFO - [2021-11-30 12:19:18,459] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/subdags/subdag_parallel_dag.py", line 5
+    with DAG(dag_id = f'{parent_dag_id}.{child_dag_id}')
+                                                       ^
+SyntaxError: invalid syntax
+[2021-11-30 12:19:18,461] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:19:18,518] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.075 seconds
+[2021-11-30 12:19:48,674] {scheduler_job.py:182} INFO - Started process (PID=218705) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:19:48,675] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:19:48,677] {logging_mixin.py:104} INFO - [2021-11-30 12:19:48,676] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:19:48,683] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:19:48,703] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.032 seconds
+[2021-11-30 12:20:18,824] {scheduler_job.py:182} INFO - Started process (PID=218745) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:20:18,825] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:20:18,826] {logging_mixin.py:104} INFO - [2021-11-30 12:20:18,826] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:20:18,845] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:20:18,868] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.048 seconds
+[2021-11-30 12:20:49,010] {scheduler_job.py:182} INFO - Started process (PID=218785) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:20:49,013] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:20:49,014] {logging_mixin.py:104} INFO - [2021-11-30 12:20:49,014] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:20:49,025] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:20:49,038] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.031 seconds
+[2021-11-30 12:21:19,176] {scheduler_job.py:182} INFO - Started process (PID=218805) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:21:19,179] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:21:19,180] {logging_mixin.py:104} INFO - [2021-11-30 12:21:19,180] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:21:19,184] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:21:19,201] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.030 seconds
+[2021-11-30 12:21:49,337] {scheduler_job.py:182} INFO - Started process (PID=218857) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:21:49,344] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:21:49,354] {logging_mixin.py:104} INFO - [2021-11-30 12:21:49,354] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:21:49,410] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:21:49,476] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.144 seconds
+[2021-11-30 12:22:19,538] {scheduler_job.py:182} INFO - Started process (PID=218878) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:22:19,547] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:22:19,549] {logging_mixin.py:104} INFO - [2021-11-30 12:22:19,549] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:22:19,557] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:22:19,582] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.049 seconds
+[2021-11-30 12:22:49,725] {scheduler_job.py:182} INFO - Started process (PID=218916) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:22:49,730] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:22:49,731] {logging_mixin.py:104} INFO - [2021-11-30 12:22:49,731] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:22:49,739] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:22:49,757] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.035 seconds
+[2021-11-30 12:23:19,943] {scheduler_job.py:182} INFO - Started process (PID=219200) to work on /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:23:19,945] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py for tasks to queue
+[2021-11-30 12:23:19,946] {logging_mixin.py:104} INFO - [2021-11-30 12:23:19,946] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:23:19,950] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py
+[2021-11-30 12:23:19,970] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/subdags/subdag_parallel_dag.py took 0.029 seconds
