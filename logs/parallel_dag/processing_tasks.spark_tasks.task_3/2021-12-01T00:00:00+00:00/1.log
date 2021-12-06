@@ -1,0 +1,29 @@
+[2021-12-06 10:19:56,687] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: parallel_dag.processing_tasks.spark_tasks.task_3 2021-12-01T00:00:00+00:00 [queued]>
+[2021-12-06 10:19:56,774] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: parallel_dag.processing_tasks.spark_tasks.task_3 2021-12-01T00:00:00+00:00 [queued]>
+[2021-12-06 10:19:56,782] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-06 10:19:56,788] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-12-06 10:19:56,789] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-06 10:19:56,842] {taskinstance.py:1087} INFO - Executing <Task(BashOperator): processing_tasks.spark_tasks.task_3> on 2021-12-01T00:00:00+00:00
+[2021-12-06 10:19:56,870] {standard_task_runner.py:52} INFO - Started process 6286 to run task
+[2021-12-06 10:19:56,954] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'parallel_dag', 'processing_tasks.spark_tasks.task_3', '2021-12-01T00:00:00+00:00', '--job-id', '698', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/parallel_dag.py', '--cfg-path', '/tmp/tmpdzbdbkyj', '--error-file', '/tmp/tmpbh7tsuq0']
+[2021-12-06 10:19:56,959] {standard_task_runner.py:77} INFO - Job 698: Subtask processing_tasks.spark_tasks.task_3
+[2021-12-06 10:19:57,782] {logging_mixin.py:104} INFO - Running <TaskInstance: parallel_dag.processing_tasks.spark_tasks.task_3 2021-12-01T00:00:00+00:00 [running]> on host airflowvm
+[2021-12-06 10:19:58,630] {taskinstance.py:1280} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=parallel_dag
+AIRFLOW_CTX_TASK_ID=processing_tasks.spark_tasks.task_3
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-01T00:00:00+00:00
+[2021-12-06 10:19:58,637] {subprocess.py:52} INFO - Tmp dir root location: 
+ /tmp
+[2021-12-06 10:19:58,637] {subprocess.py:63} INFO - Running command: ['bash', '-c', 'sleep 3']
+[2021-12-06 10:19:58,697] {subprocess.py:75} INFO - Output:
+[2021-12-06 10:20:01,736] {subprocess.py:83} INFO - Command exited with return code 0
+[2021-12-06 10:20:02,169] {taskinstance.py:1184} INFO - Marking task as SUCCESS. dag_id=parallel_dag, task_id=processing_tasks.spark_tasks.task_3, execution_date=20211201T000000, start_date=20211206T101956, end_date=20211206T102002
+[2021-12-06 10:20:02,398] {local_task_job.py:196} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2021-12-06 10:20:02,574] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 6286
+[2021-12-06 10:20:02,637] {taskinstance.py:1264} ERROR - Received SIGTERM. Terminating subprocesses.
+[2021-12-06 10:20:02,639] {subprocess.py:89} INFO - Sending SIGTERM signal to process group
+[2021-12-06 10:20:02,691] {process_utils.py:66} INFO - Process psutil.Process(pid=6286, status='terminated', exitcode=1, started='10:19:56') (6286) terminated with exit code 1
