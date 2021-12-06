@@ -1,0 +1,24 @@
+[2021-12-06 12:00:11,827] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: xcom_dag.task_4 2021-12-06T11:59:45.126031+00:00 [queued]>
+[2021-12-06 12:00:11,994] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: xcom_dag.task_4 2021-12-06T11:59:45.126031+00:00 [queued]>
+[2021-12-06 12:00:12,001] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-06 12:00:12,002] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-12-06 12:00:12,007] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-06 12:00:12,142] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): task_4> on 2021-12-06T11:59:45.126031+00:00
+[2021-12-06 12:00:12,181] {standard_task_runner.py:52} INFO - Started process 22682 to run task
+[2021-12-06 12:00:12,244] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'xcom_dag', 'task_4', '2021-12-06T11:59:45.126031+00:00', '--job-id', '721', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/xcom_dag.py', '--cfg-path', '/tmp/tmpaplbblxr', '--error-file', '/tmp/tmpvs3myqqw']
+[2021-12-06 12:00:12,268] {standard_task_runner.py:77} INFO - Job 721: Subtask task_4
+[2021-12-06 12:00:12,884] {logging_mixin.py:104} INFO - Running <TaskInstance: xcom_dag.task_4 2021-12-06T11:59:45.126031+00:00 [running]> on host airflowvm
+[2021-12-06 12:00:14,083] {taskinstance.py:1280} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=xcom_dag
+AIRFLOW_CTX_TASK_ID=task_4
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-06T11:59:45.126031+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-12-06T11:59:45.126031+00:00
+[2021-12-06 12:00:14,084] {logging_mixin.py:104} INFO - choose best model
+[2021-12-06 12:00:14,223] {logging_mixin.py:104} INFO - [3.8299199765077945, 1.207067378964943, 9.718328370288978]
+[2021-12-06 12:00:14,232] {python.py:151} INFO - Done. Returned value was: None
+[2021-12-06 12:00:14,353] {taskinstance.py:1184} INFO - Marking task as SUCCESS. dag_id=xcom_dag, task_id=task_4, execution_date=20211206T115945, start_date=20211206T120011, end_date=20211206T120014
+[2021-12-06 12:00:14,778] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-12-06 12:00:14,810] {local_task_job.py:151} INFO - Task exited with return code 0
