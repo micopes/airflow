@@ -1,0 +1,25 @@
+[2021-12-06 13:58:52,904] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: xcom_dag.processing_tasks.training_model_b 2021-12-06T13:58:27.214034+00:00 [queued]>
+[2021-12-06 13:58:53,368] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: xcom_dag.processing_tasks.training_model_b 2021-12-06T13:58:27.214034+00:00 [queued]>
+[2021-12-06 13:58:53,368] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-06 13:58:53,369] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-12-06 13:58:53,369] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-06 13:58:53,549] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): processing_tasks.training_model_b> on 2021-12-06T13:58:27.214034+00:00
+[2021-12-06 13:58:53,584] {standard_task_runner.py:52} INFO - Started process 66383 to run task
+[2021-12-06 13:58:53,632] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'xcom_dag', 'processing_tasks.training_model_b', '2021-12-06T13:58:27.214034+00:00', '--job-id', '777', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/xcom_dag.py', '--cfg-path', '/tmp/tmpyvpye90l', '--error-file', '/tmp/tmpdjdirmjc']
+[2021-12-06 13:58:53,750] {standard_task_runner.py:77} INFO - Job 777: Subtask processing_tasks.training_model_b
+[2021-12-06 13:58:55,141] {logging_mixin.py:104} INFO - Running <TaskInstance: xcom_dag.processing_tasks.training_model_b 2021-12-06T13:58:27.214034+00:00 [running]> on host airflowvm
+[2021-12-06 13:58:58,227] {taskinstance.py:1280} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=xcom_dag
+AIRFLOW_CTX_TASK_ID=processing_tasks.training_model_b
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-06T13:58:27.214034+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-12-06T13:58:27.214034+00:00
+[2021-12-06 13:58:58,231] {logging_mixin.py:104} INFO - model's accuracy: 4.930243908747104
+[2021-12-06 13:58:58,698] {python.py:151} INFO - Done. Returned value was: None
+[2021-12-06 13:58:59,319] {taskinstance.py:1184} INFO - Marking task as SUCCESS. dag_id=xcom_dag, task_id=processing_tasks.training_model_b, execution_date=20211206T135827, start_date=20211206T135852, end_date=20211206T135859
+[2021-12-06 13:58:59,910] {local_task_job.py:196} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2021-12-06 13:59:00,300] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-12-06 13:59:00,115] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 66383
+[2021-12-06 13:59:00,321] {process_utils.py:66} INFO - Process psutil.Process(pid=66383, status='terminated', exitcode=0, started='13:58:52') (66383) terminated with exit code 0
