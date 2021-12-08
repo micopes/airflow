@@ -1,0 +1,77 @@
+[2021-12-08 06:06:04,207] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: elasticsearch_dag.connections_to_es 2021-12-07T00:00:00+00:00 [queued]>
+[2021-12-08 06:06:04,316] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: elasticsearch_dag.connections_to_es 2021-12-07T00:00:00+00:00 [queued]>
+[2021-12-08 06:06:04,329] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-08 06:06:04,332] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-12-08 06:06:04,336] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-08 06:06:04,412] {taskinstance.py:1087} INFO - Executing <Task(PostgresToElasticOperator): connections_to_es> on 2021-12-07T00:00:00+00:00
+[2021-12-08 06:06:04,426] {standard_task_runner.py:52} INFO - Started process 146613 to run task
+[2021-12-08 06:06:04,447] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'elasticsearch_dag', 'connections_to_es', '2021-12-07T00:00:00+00:00', '--job-id', '801', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/elasticsearch_dag.py', '--cfg-path', '/tmp/tmpqgk80nli', '--error-file', '/tmp/tmp2ggv0bor']
+[2021-12-08 06:06:04,491] {standard_task_runner.py:77} INFO - Job 801: Subtask connections_to_es
+[2021-12-08 06:06:04,780] {logging_mixin.py:104} INFO - Running <TaskInstance: elasticsearch_dag.connections_to_es 2021-12-07T00:00:00+00:00 [running]> on host airflowvm
+[2021-12-08 06:06:05,232] {taskinstance.py:1280} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=elasticsearch_dag
+AIRFLOW_CTX_TASK_ID=connections_to_es
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-07T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-07T00:00:00+00:00
+[2021-12-08 06:06:05,315] {base.py:69} INFO - Using connection to: id: elasticsearch_default. Host: localhost, Port: 9200, Schema: http, Login: None, Password: None, extra: {}
+[2021-12-08 06:06:05,442] {connection.py:360} ERROR - Failed parsing the json for conn_id ***_default
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/connection.py", line 357, in extra_dejson
+    obj = json.loads(self.extra)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 11 (char 10)
+[2021-12-08 06:06:05,453] {base.py:69} INFO - Using connection to: id: ***_default. Host: localhost, Port: 5432, Schema: , Login: ***, Password: ***, extra: {}
+[2021-12-08 06:06:05,454] {connection.py:360} ERROR - Failed parsing the json for conn_id ***_default
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/connection.py", line 357, in extra_dejson
+    obj = json.loads(self.extra)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 11 (char 10)
+[2021-12-08 06:06:05,488] {connection.py:360} ERROR - Failed parsing the json for conn_id ***_default
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/connection.py", line 357, in extra_dejson
+    obj = json.loads(self.extra)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 11 (char 10)
+[2021-12-08 06:06:05,489] {connection.py:360} ERROR - Failed parsing the json for conn_id ***_default
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/connection.py", line 357, in extra_dejson
+    obj = json.loads(self.extra)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 11 (char 10)
+[2021-12-08 06:06:05,526] {taskinstance.py:1481} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1137, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/airflow/dags/elasticsearch_plugin/operators/postgres_to_elastic.py", line 32, in execute
+    cur.execute(sql)
+NameError: name 'sql' is not defined
+[2021-12-08 06:06:05,542] {taskinstance.py:1524} INFO - Marking task as FAILED. dag_id=elasticsearch_dag, task_id=connections_to_es, execution_date=20211207T000000, start_date=20211208T060604, end_date=20211208T060605
+[2021-12-08 06:06:05,673] {local_task_job.py:151} INFO - Task exited with return code 1
